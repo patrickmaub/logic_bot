@@ -1,0 +1,303 @@
+chapter,description,exercise_set,problem_number,problem,solution
+1,For each of the following say whether the statement is true (T) or false (F).,A,1,"In any valid argument, the premises are all true.","In any valid argument, the premises are all true."
+1,For each of the following say whether the statement is true (T) or false (F).,A,2,"In any valid argument, the conclusion is true.","In any valid argument, the conclusion is true."
+1,For each of the following say whether the statement is true (T) or false (F).,A,3,"In any valid argument, if the premises are all true, then the conclusion is also
+true.","In any valid argument, if the premises are all true, then the conclusion is also"
+1,For each of the following say whether the statement is true (T) or false (F).,A,4,"In any factually correct argument, the premises are all true.","In any factually correct argument, the premises are all true."
+1,For each of the following say whether the statement is true (T) or false (F).,A,5,"In any factually correct argument, the conclusion is true.","In any factually correct argument, the conclusion is true."
+1,For each of the following say whether the statement is true (T) or false (F).,A,6,"In any sound argument, the premises are all true.","In any sound argument, the premises are all true."
+1,For each of the following say whether the statement is true (T) or false (F).,A,7,In a sound argument the conclusion is true.,In a sound argument the conclusion is true.
+1,For each of the following say whether the statement is true (T) or false (F).,A,8,Every sound argument is factually correct.,Every sound argument is factually correct.
+1,For each of the following say whether the statement is true (T) or false (F).,A,9,Every sound argument is valid.,Every sound argument is valid.
+1,For each of the following say whether the statement is true (T) or false (F).,A,10,Every factually correct argument is valid.,Every factually correct argument is valid.
+1,For each of the following say whether the statement is true (T) or false (F).,A,11,Every factually correct argument is sound.,Every factually correct argument is sound.
+1,For each of the following say whether the statement is true (T) or false (F).,A,12,Every valid argument is factually correct.,Every valid argument is factually correct.
+1,For each of the following say whether the statement is true (T) or false (F).,A,13,Every valid argument is sound.,Every valid argument is sound.
+1,For each of the following say whether the statement is true (T) or false (F).,A,14,Every valid argument has a true conclusion.,Every valid argument has a true conclusion.
+1,For each of the following say whether the statement is true (T) or false (F).,A,15,Every factually correct argument has a true conclusion.,Every factually correct argument has a true conclusion.
+1,For each of the following say whether the statement is true (T) or false (F).,A,16,Every sound argument has a true conclusion.,Every sound argument has a true conclusion.
+1,For each of the following say whether the statement is true (T) or false (F).,A,17,"If an argument is valid and has a false conclusion, then it must have at least
+one false premise.","If an argument is valid and has a false conclusion, then it must have at least"
+1,For each of the following say whether the statement is true (T) or false (F).,A,18,"If an argument is valid and has a true conclusion, then it must have all true
+premises.","If an argument is valid and has a true conclusion, then it must have all true"
+1,For each of the following say whether the statement is true (T) or false (F).,A,19,"If an argument is valid and has at least one false premise then its conclusion
+must be false.",If an argument is valid and has at least one false premise then its conclusion
+1,For each of the following say whether the statement is true (T) or false (F).,A,20,"If an argument is valid and has all true premises, then its conclusion must be
+true. 
+Chapter 1: Basic Concepts 23","If an argument is valid and has all true premises, then its conclusion must be"
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,1,"all dogs are reptiles
+all reptiles are Martians
+/ all dogs are Martians",all dogs are reptiles
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,2,"some dogs are cats
+all cats are felines
+/ some dogs are felines",some dogs are cats
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,3,"all dogs are Republicans
+some dogs are flea-bags
+/ some Republicans are flea-bags",all dogs are Republicans
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,4,"all dogs are Republicans
+some Republicans are flea-bags
+/ some dogs are flea-bags",all dogs are Republicans
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,5,"some cats are pets
+some pets are dogs
+/ some cats are dogs",some cats are pets
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,6,"all cats are mammals
+all dogs are mammals
+/ all cats are dogs",all cats are mammals
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,7,"all lizards are reptiles
+no reptiles are warm-blooded
+/ no lizards are warm-blooded",all lizards are reptiles
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,8,"all dogs are reptiles
+no reptiles are warm-blooded
+/ no dogs are warm-blooded",all dogs are reptiles
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,9,"no cats are dogs
+no dogs are cows
+/ no cats are cows",no cats are dogs
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,10,"no cats are dogs
+some dogs are pets
+/ some pets are not cats",no cats are dogs
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,11,"only dogs are pets
+some cats are pets
+/ some cats are dogs",only dogs are pets
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,12,"only bullfighters are macho
+Max is macho
+/ Max is a bullfighter",only bullfighters are macho
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,13,"only bullfighters are macho
+Max is a bullfighter
+/ Max is macho",only bullfighters are macho
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,14,"food containing DDT is
+dangerous
+everything I cook is dangerous
+/ everything I cook contains
+DDT",food containing DDT is
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,15,"the only dogs I like are collies
+Sean is a dog I like
+/ Sean is a collie",the only dogs I like are collies
+1,"In each of the following, you are given an argument to analyze. In each case,
+answer the following questions.
+(1) Is the argument factually correct?
+(2) Is the argument valid?
+(3) Is the argument sound?
+Note that in many cases, the answer might legitimately be “can't tell”. For
+example, in certain cases in which one does not know whether the premises are true
+or false, one cannot decide whether the argument is factually correct, and hence on
+cannot decide whether the argument is sound.",B,16,"the only people still working
+these exercises are masochists
+I am still working on these
+exercises
+/ I am a masochist 
+24 Hardegree, Symbolic Logic",the only people still working
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,1,"all dogs are reptiles
+all reptiles are Martians
+/ all dogs are Martians",all dogs are reptiles
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,2,"all dogs are mammals
+some mammals are pets
+/ some dogs are pets",all dogs are mammals
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,3,"all ducks waddle
+nothing that waddles is graceful
+/ no duck is graceful",all ducks waddle
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,4,"all cows are eligible voters
+some cows are stupid
+/ some eligible voters are stupid",all cows are eligible voters
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,5,"all birds can fly
+some mammals can fly
+/ some birds are mammals",all birds can fly
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,6,"all cats are vertebrates
+all mammals are vertebrates
+/ all cats are mammals",all cats are vertebrates
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,7,"all dogs are Republicans
+some Republicans are flea-bags
+/ some dogs are flea-bags",all dogs are Republicans
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,8,"all turtles are reptiles
+no turtles are warm-blooded
+/ no reptiles are warm-blooded",all turtles are reptiles
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,9,"no dogs are cats
+no cats are apes
+/ no dogs are apes",no dogs are cats
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,10,"no mammals are cold-blooded
+some lizards are cold-blooded
+/ some mammals are not lizards 
+Chapter 1: Basic Concepts 25",no mammals are cold-blooded
+1,"In the following, you are given several syllogistic arguments (some valid,
+some invalid). In each case, attempt to construct a counterexample. A valid
+argument does not admit a counterexample, so in some cases, you will not be able
+to construct a counterexample.",C,11,ANSWERS TO EXERCISES FOR CHAPTER 1,ANSWERS TO EXERCISES FOR CHAPTER 1
+1,Original Argument Counterexample,A,1,"all dogs are reptiles valid; admits no counterexample
+ all reptiles are Martians
+ / all dogs are Martians",False 11. False
+1,Original Argument Counterexample,A,2,"all dogs are mammals all dogs are mammals
+ some mammals are pets some mammals are cats
+ / some dogs are pets / some dogs are cats",False 12. False
+1,Original Argument Counterexample,A,3,"all ducks waddle valid; admits no counterexample
+ nothing that waddles is graceful
+ / no duck is graceful",True 13. False
+1,Original Argument Counterexample,A,4,"all cows are eligible voters valid; admits no counterexample
+ some cows are stupid
+ / some eligible voters are stupid",True 14. False
+1,Original Argument Counterexample,A,5,"all birds can fly all birds lay eggs
+ some mammals can fly some mammals lay eggs (the platypus)
+ / some birds are mammals / some birds are mammals",False 15. False
+1,Original Argument Counterexample,A,6,"all cats are vertebrates all cats are vertebrates
+ all mammals are vertebrates all reptiles are vertebrates
+ / all cats are mammals / all cats are reptiles",True 16. True
+1,Original Argument Counterexample,A,7,"all dogs are Republicans all dogs are mammals
+ some Republicans are flea-bags some mammals are cats
+ / some dogs are flea-bags / some dogs are cats",True 17. True
+1,Original Argument Counterexample,A,8,"all turtles are reptiles all turtles are reptiles
+ no turtles are warm-blooded no turtles are lizards
+ / no reptiles are warm-blooded / no reptiles are lizards",True 18. False
+1,Original Argument Counterexample,A,9,"no dogs are cats no dogs are cats
+ no cats are apes no cats are poodles
+ / no dogs are apes / no dogs are poodles",True 19. False
+1,Original Argument Counterexample,A,10,"no mammals are cold-blooded no mammals are cold-blooded
+ some lizards are cold-blooded some vertebrates are cold-blooded
+ / some mammals are not lizards / some mammals are not vertebrates",False 20. True

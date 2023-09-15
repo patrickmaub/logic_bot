@@ -1,0 +1,3145 @@
+ANSWERS TO EXERCISES FOR CHAPTER 1 
+EXERCISE SET A 
+1. False 11. False 
+2. False 12. False 
+3. True 13. False 
+4. True 14. False 
+5. False 15. False 
+6. True 16. True 
+7. True 17. True 
+8. True 18. False 
+9. True 19. False 
+10. False 20. True 
+ 
+EXERCISE SET B 
+1. factually correct? NO 
+valid? YES 
+sound? NO 
+2. factually correct? NO 
+valid? YES 
+sound? NO 
+3. factually correct? NO 
+valid? YES 
+sound? NO 
+4. factually correct? NO 
+valid? NO 
+sound? NO 
+5. factually correct? YES 
+valid? NO 
+sound? NO 
+6. factually correct? YES 
+valid? NO 
+sound? NO 
+7. factually correct? YES 
+valid? YES 
+sound? YES 
+8. factually correct? NO 
+valid? YES 
+sound? NO 9. factually correct? YES 
+valid? NO 
+sound? NO 
+10. factually correct? YES 
+valid? YES 
+sound? YES 
+11. factually correct? NO 
+valid? YES 
+sound? NO 
+12. factually correct? NO 
+valid? YES 
+sound? NO 
+13. factually correct? NO 
+valid? NO 
+sound? NO 
+14. factually correct? can't tell 
+valid? NO 
+sound? NO 
+15. factually correct? can't tell 
+valid? YES 
+sound? can't tell 
+16. factually correct? can't tell 
+valid? YES 
+sound? can't tell 
+26  Hardegree, Symbolic Logic  
+EXERCISE SET C 
+ Original Argument Counterexample 
+1. all dogs are reptiles valid; admits no counterex ample 
+ all reptiles are Martians  
+ / all dogs are Martians  
+   
+2. all dogs are mammals all dogs are mammals 
+ some mammals are pets some mammals are cats 
+ / some dogs are pets / some dogs are cats 
+   
+3. all ducks waddle valid; admits no counterexample  
+ nothing that waddles is graceful  
+ / no duck is graceful  
+   
+4. all cows are eligible voters valid; admits no co unterexample 
+ some cows are stupid  
+ / some eligible voters are stupid  
+   
+5. all birds can fly all birds lay eggs 
+ some mammals can fly some mammals lay eggs (the pl atypus)  
+ / some birds are mammals / some birds are mammals 
+   
+6. all cats are vertebrates all cats are vertebrate s 
+ all mammals are vertebrates all reptiles are verte brates 
+ / all cats are mammals / all cats are reptiles 
+   
+7. all dogs are Republicans all dogs are mammals 
+ some Republicans are flea-bags some mammals are ca ts 
+ / some dogs are flea-bags / some dogs are cats 
+   
+8. all turtles are reptiles all turtles are reptile s 
+ no turtles are warm-blooded no turtles are lizards  
+ / no reptiles are warm-blooded / no reptiles are l izards 
+   
+9. no dogs are cats no dogs are cats 
+ no cats are apes no cats are poodles 
+ / no dogs are apes / no dogs are poodles 
+   
+10. no mammals are cold-blooded no mammals are cold -blooded 
+ some lizards are cold-blooded some vertebrates are  cold-blooded 
+ / some mammals are not lizards / some mammals are not vertebrates 
+ 
+ANSWERS TO EXERCISES FOR CHAPTER 2  
+EXERCISE SET A 
+1. T 14. F 
+2. F 15. T 
+3. T 16. T 
+4. T 17. F 
+5. F 18. F 
+6. T 19. T 
+7. T 20. F 
+8. F 21. F 
+9. T 22. T 
+10. T 23. F 
+11. T 24. T 
+12. F 25. F 
+13. F  
+ 
+EXERCISE SET B 
+1. T 14. T 
+2. F 15. F 
+3. F 16. T 
+4. T 17. F 
+5. F 18. F 
+6. F 19. T 
+7. T 20. F 
+8. T 21. T 
+9. F 22. F 
+10. T 23. F 
+11. F 24. F 
+12. F 25. T 
+13. T  
+ 
+Chapter 2: Truth-Functional Connectives  57  
+EXERCISE SET C 
+1. 
+( P & Q ) ∨ ( P & ~ Q ) 
+ T T T  T  T F F T  
+ T F F  T  T T T F  
+ F F T  F  F F F T  
+ F F F  F  F F T F  
+ 
+2. 
+~ ( P & ~ P ) 
+T  T F F T  
+T  F F T F  
+ 
+3. 
+~ ( P ∨ ~ P ) 
+F  T T F T  
+F  F T T F  
+ 
+4. 
+~ ( P & Q ) ∨ ( ~ P ∨ ~ Q ) 
+F  T T T  F  F T F F T  
+T  T F F  T  F T T T F  
+T  F F T  T  T F T F T  
+T  F F F  T  T F T T F  
+ 
+5. 
+~ ( P ∨ Q ) ∨ ( ~ P & ~ Q ) 
+F  T T T  F  F T F F T  
+F  T T F  F  F T F T F  
+F  F T T  F  T F F F T  
+T  F F F  T  T F T T F  
+ 
+6. 
+( P & Q ) ∨ ( ~ P & ~ Q ) 
+ T T T  T  F T F F T  
+ T F F  F  F T F T F  
+ F F T  F  T F F F T  
+ F F F  T  T F T T F  
+ 
+7. 
+~ ( P ∨ ( P & Q ) ) 
+F  T T  T T T   
+F  T T  T F F   
+T  F F  F F T   
+T  F F  F F F   
+ 8. 
+~ ( P ∨ ( P & Q ) ) ∨ P 
+F  T T  T T T   T T 
+F  T T  T F F   T T 
+T  F F  F F T   T F 
+T  F F  F F F   T F 
+ 
+9. 
+( P & ( Q ∨ P ) ) & ~ P 
+ T T  T T T   F F T 
+ T T  F T T   F F T 
+ F F  T T F   F T F 
+ F F  F F F   F T F 
+ 
+10. 
+( ( P → Q ) → P ) → P 
+  T T T  T T  T T 
+  T F F  T T  T T 
+  F T T  F F  T F 
+  F T F  F F  T F 
+ 
+11. 
+~ ( ~ ( P → Q ) → P ) 
+F  F  T T T  T T  
+F  T  T F F  T T  
+F  F  F T T  T F  
+F  F  F T F  T F  
+ 
+12. 
+( P → Q ) ↔ ~ P 
+ T T T  F F T 
+ T F F  T F T 
+ F T T  T T F 
+ F T F  T T F 
+ 
+13. 
+P → ( Q → ( P & Q ) ) 
+T T  T T  T T T   
+T T  F T  T F F   
+F T  T F  F F T   
+F T  F T  F F F   
+ 
+58  Hardegree, Symbolic Logic  
+14. 
+( P ∨ Q ) ↔ ( ~ P → Q ) 
+ T T T  T  F T T T  
+ T T F  T  F T T F  
+ F T T  T  T F T T  
+ F F F  T  T F F F  
+ 
+15. 
+~ ( P ∨ ( P → Q ) ) 
+F  T T  T T T   
+F  T T  T F F   
+F  F T  F T T   
+F  F T  F T F   
+ 
+16 
+( P → Q ) ↔ ( Q → P ) 
+ T T T  T  T T T  
+ T F F  F  F T T  
+ F T T  F  T F F  
+ F T F  T  F T F  
+ 
+17. 
+( P → Q ) ↔ ( ~ Q → ~ P ) 
+ T T T  T  F T T F T  
+ T F F  T  T F F F T  
+ F T T  T  F T T T F  
+ F T F  T  T F T T F  
+ 
+18. 
+( P ∨ Q ) → ( P & Q ) 
+ T T T  T  T T T  
+ T T F  F  T F F  
+ F T T  F  F F T  
+ F F F  T  F F F  
+ 19. 
+( P & Q ) ∨ ( P & R ) 
+ T T T  T  T T T  
+ T T T  T  T F F  
+ T F F  T  T T T  
+ T F F  F  T F F  
+ F F T  F  F F T  
+ F F T  F  F F F  
+ F F F  F  F F T  
+ F F F  F  F F F  
+ 
+20. 
+[ P → ( Q & R ) ] → [ P → R ] 
+ T T  T T T   T  T T T  
+ T F  T F F   T  T F F  
+ T F  F F T   T  T T T  
+ T F  F F F   T  T F F  
+ F T  T T T   T  F T T  
+ F T  T F F   T  F T F  
+ F T  F F T   T  F T T  
+ F T  F F F   T  F T F  
+ 
+21. 
+[ P → ( Q ∨ R ) ] → [ P → Q ] 
+ T T  T T T   T  T T T  
+ T T  T T F   T  T T T  
+ T T  F T T   F  T F F  
+ T F  F F F   T  T F F  
+ F T  T T T   T  F T T  
+ F T  T T F   T  F T T  
+ F T  F T T   T  F T F  
+ F T  F F F   T  F T F  
+22. 
+[ ( P ∨ Q ) → R ] → [ P → R ] 
+  T T T  T T  T  T T T  
+  T T T  F F  T  T F F  
+  T T F  T T  T  T T T  
+  T T F  F F  T  T F F  
+  F T T  T T  T  F T T  
+  F T T  F F  T  F T F  
+  F F F  T T  T  F T T  
+  F F F  T F  T  F T F  
+ 
+Chapter 2: Truth-Functional Connectives  59  
+23. 
+[ ( P & Q ) → R ] → [ P → R ] 
+  T T T  T T  T  T T T  
+  T T T  F F  T  T F F  
+  T F F  T T  T  T T T  
+  T F F  T F  F  T F F  
+  F F T  T T  T  F T T  
+  F F T  T F  T  F T F  
+  F F F  T T  T  F T T  
+  F F F  T F  T  F T F  
+ 
+24. 
+[ ( P & Q ) → R ] → [ ( Q & ~ R ) → ~ P ] 
+  T T T  T T  T   T F F T  T F T  
+  T T T  F F  T   T T T F  F F T  
+  T F F  T T  T   F F F T  T F T  
+  T F F  T F  T   F F T F  T F T  
+  F F T  T T  T   T F F T  T T F  
+  F F T  T F  T   T T T F  T T F  
+  F F F  T T  T   F F F T  T T F  
+  F F F  T F  T   F F T F  T T F  
+ 
+25. 
+[ P ↔ ( Q ↔ R ) ] ↔ [ ( P ↔ Q ) ↔ R ] 
+ T T  T T T   T   T T T  T T  
+ T F  T F F   T   T T T  F F  
+ T F  F F T   T   T F F  F T  
+ T T  F T F   T   T F F  T F  
+ F F  T T T   T   F F T  F T  
+ F T  T F F   T   F F T  T F  
+ F T  F F T   T   F T F  T T  
+ F F  F T F   T   F T F  F F  
+ 
+ 
+ANSWERS TO EXERCISES FOR CHAPTER 3 
+EXERCISE SET A 
+1. contingent 
+2. tautology 
+3. contradiction 
+4. contingent 
+5. contingent 
+6. contingent 
+7. contingent 
+8. tautology 
+9. contradiction 
+10. tautology 
+11. contradiction 
+12. contingent 
+13. tautology 14. tautology 
+15. contradiction 
+16. contingent 
+17. tautology 
+18. contingent 
+19. contingent 
+20. tautology 
+21. contingent 
+22. tautology 
+23. contingent 
+24. tautology 
+25. tautology 
+ 
+EXERCISE SET B 
+#1. 
+A:    B: 
+~ ( P & Q )  ~ P & ~ Q  A → B  B → A 
+F  T T T   F T F F T  F T F  F T F 
+T  T F F   F T F T F  T F F  F T T 
+T  F F T   T F F F T  T F F  F T T 
+T  F F F   T F T T F  T T T  T T T 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? NO 
+#2. 
+A:    B: 
+~ ( P & Q )  ~ P ∨ ~ Q  A → B  B → A 
+F  T T T   F T F F T  F T F  F T F 
+T  T F F   F T T T F  T T T  T T T 
+T  F F T   T F T F T  T T T  T T T 
+T  F F F   T F T T F  T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+Chapter 3: Validity in Sentential Logic  77  
+#3. 
+A:    B: 
+~ ( P ∨ Q )  ~ P ∨ ~ Q  A → B  B → A 
+F  T T T   F T F F T  F T F  F T F 
+F  T T F   F T T T F  F T T  T F F 
+F  F T T   T F T F T  F T T  T F F 
+T  F F F   T F T T F  T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#4. 
+A:    B: 
+~ ( P ∨ Q )  ~ P & ~ Q  A → B  B → A 
+F  T T T   F T F F T  F T F  F T F 
+F  T T F   F T F T F  F T F  F T F 
+F  F T T   T F F F T  F T F  F T F 
+T  F F F   T F T T F  T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+#5. 
+A:    B: 
+~ ( P → Q )  ~ P → ~ Q  A → B  B → A 
+F  T T T   F T T F T  F T T  T F F 
+T  T F F   F T T T F  T T T  T T T 
+F  F T T   T F F F T  F T F  F T F 
+F  F T F   T F T T F  F T T  T F F 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#6. 
+A:    B: 
+~ ( P → Q )  P & ~ Q  A → B  B → A 
+F  T T T   T F F T  F T F  F T F 
+T  T F F   T T T F  T T T  T T T 
+F  F T T   F F F T  F T F  F T F 
+F  F T F   F F T F  F T F  F T F 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+78  Hardegree, Symbolic Logic  
+#7. 
+A:    B: 
+~ ( P ↔ Q )  ~ P ↔ ~ Q  A → B  B → A 
+F  T T T   F T T F T  F T T  T F F 
+T  T F F   F T F T F  T F F  F T T 
+T  F F T   T F F F T  T F F  F T F 
+F  F T F   T F T T F  F T T  T F F 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#8. 
+A:    B: 
+~ ( P ↔ Q )  P ↔ ~ Q  A → B  B → A 
+F  T T T   T F F T  F T F  F T F 
+T  T F F   T T T F  T T T  T T T 
+T  F F T   F T F T  T T T  T T T 
+F  F T F   F F T F  F T F  F T F 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+#9. 
+A:    B: 
+~ ( P ↔ Q )  ~ P ↔ Q  A → B  B → A 
+F  T T T   F T F T  F T F  F T F 
+T  T F F   F T T F  T T T  T T T 
+T  F F T   T F T T  T T T  T T T 
+F  F T F   T F F F  F T F  F T F 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+#10. 
+A:   B: 
+P ↔ Q  ( P & Q ) & ( Q → P )  A → B  B → A 
+T T T   T T T  T  T T T   T T T  T T T 
+T F F   T F F  F  F T T   F T F  F T F 
+F F T   F F T  F  T F F   F T F  F T F 
+F T F   F F F  F  F T F   T F F  F T T 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? NO 
+Chapter 3: Validity in Sentential Logic  79  
+#11. 
+A:   B: 
+P ↔ Q  ( P → Q ) & ( Q → P )  A → B  B → A 
+T T T   T T T  T  T T T   T T T  T T T 
+T F F   T F F  F  F T T   F T F  F T F 
+F F T   F T T  F  T F F   F T F  F T F 
+F T F   F T F  T  F T F   T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+#12. 
+A:   B: 
+P → Q  Q  → P  A → B  B → A 
+T T T  T T T  T T T  T T T 
+T F F  F T T  F T T  T F F 
+F T T  T F F  T F F  F T F 
+F T F  F T F  T T T  T T T 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#13. 
+A:   B: 
+P → Q  ~ P → ~ Q  A → B  B → A 
+T T T  F T T F T  T T T  T T T 
+T F F  F T T T F  F T T  T F F 
+F T T  T F F F T  T F F  F T T 
+F T F  T F T T F  T T T  T T T 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#14. 
+A:   B: 
+P → Q  ~ Q → ~ P  A → B  B → A 
+T T T  F T T F T  T T T  T T T 
+T F F  T F F F T  F T F  F T F 
+F T T  F T T T F  T T T  T T T 
+F T F  T F T T F  T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+80  Hardegree, Symbolic Logic  
+#15. 
+A:   B: 
+P → Q  ~ P ∨ Q  A → B  B → A 
+T T T  F T T T  T T T  T T T 
+T F F  F T F F  F T F  F T F 
+F T T  T F T T  T T T  T T T 
+F T F  T F T F  T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+#16. 
+A:   B: 
+P → Q  ~ ( P & ~ Q )  A → B  B → A 
+T T T  T  T F F T   T T T  T T T 
+T F F  F  T T T F   F T F  F T F 
+F T T  T  F F F T   T T T  T T T 
+F T F  T  F F T F   T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+#17. 
+A:   B: 
+~ P  ~ ( P & Q )  A → B  B → A 
+F T  F  T T T   F T F  F T F 
+F T  T  T F F   F T T  T F F 
+T F  T  F F T   T T T  T T T 
+T F  T  F F F   T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#18. 
+A:   B: 
+~ P  ~ ( P ∨ Q )  A → B  B → A 
+F T  F  T T T   F T F  F T F 
+F T  F  T T F   F T F  F T F 
+T F  F  F T T   T F F  F T T 
+T F  T  F F F   T T T  T T T 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? NO 
+Chapter 3: Validity in Sentential Logic  81  
+#19. 
+A:    B: 
+~ ( P ↔ Q )  ( P & Q ) → R  A → B  B → A 
+F  T T T    T T T  T T  F T T  T F F 
+F  T T T    T T T  F F  F T F  F T F 
+T  T F F    T F F  T T  T T T  T T T 
+T  T F F    T F F  T F  T T T  T T T 
+T  F F T    F F T  T T  T T T  T T T 
+T  F F T    F F T  T F  T T T  T T T 
+F  F T F    F F F  T T  F T T  T F F 
+F  F T F    F F F  T F  F T T  T F F 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#20. 
+A:    B: 
+( P & Q ) → R  P → R  A → B  B → A 
+ T T T  T T  T T T  T T T  T T T 
+ T T T  F F  T F F  F T F  F T F 
+ T F F  T T  T T T  T T T  T T T 
+ T F F  T F  T F F  T F F  F T T 
+ F F T  T T  F T T  T T T  T T T 
+ F F T  T F  F T F  T T T  T T T 
+ F F F  T T  F T T  T T T  T T T 
+ F F F  T F  F T F  T T T  T T T 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? NO 
+#21. 
+A:    B: 
+( P ∨ Q ) → R  P → R  A → B  B → A 
+ T T T  T T  T T T  T T T  T T T 
+ T T T  F F  T F F  F T F  F T F 
+ T T F  T T  T T T  T T T  T T T 
+ T T F  F F  T F F  F T F  F T F 
+ F T T  T T  F T T  T T T  T T T 
+ F T T  F F  F T F  F T T  T F F 
+ F F F  T T  F T T  T T T  T T T 
+ F F F  T F  F T F  T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+82  Hardegree, Symbolic Logic  
+#22. 
+A:    B: 
+( P & Q ) → R  P → ( Q → R )  A → B  B → A 
+ T T T  T T  T T  T T T   T T T  T T T 
+ T T T  F F  T F  T F F   F T F  F T F 
+ T F F  T T  T T  F T T   T T T  T T T 
+ T F F  T F  T T  F T F   T T T  T T T 
+ F F T  T T  F T  T T T   T T T  T T T 
+ F F T  T F  F T  T F F   T T T  T T T 
+ F F F  T T  F T  F T T   T T T  T T T 
+ F F F  T F  F T  F T F   T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? YES 
+#23. 
+A:    B: 
+P → ( Q & R )  P → Q  A → B  B → A 
+T T  T T T   T T T  T T T  T T T 
+T F  T F F   T T T  F T F  T F F 
+T F  F F T   T F F  F T T  F T F 
+T F  F F F   T F F  F T F  F T F 
+F T  T T T   F T T  T T T  T T T 
+F T  T F F   F T T  T T T  T T T 
+F T  F F T   F T F  T T T  T T T 
+F T  F F F   F T F  T T T  T T T 
+ Does A logically imply B?   YES 
+ Does B logically imply A?   NO 
+ Are A and B logically equivalent? NO 
+#24. 
+A:    B: 
+P → ( Q ∨ R )  P → Q  A → B  B → A 
+T T  T T T   T T T  T T T  T T T 
+T T  T T F   T T T  T T T  F T T 
+T T  F T T   T F F  T F F  T T T 
+T F  F F F   T F F  F T F  F T F 
+F T  T T T   F T T  T T T  T T T 
+F T  T T F   F T T  T T T  T T T 
+F T  F T T   F T F  T T T  T T T 
+F T  F F F   F T F  T T T  T T T 
+ Does A logically imply B?   NO 
+ Does B logically imply A?   YES 
+ Are A and B logically equivalent? NO 
+Chapter 3: Validity in Sentential Logic  83  
+EXERCISE SET C 
+1. 
+P → Q ; P   /  Q 
+T T T  T  T 
+T F F  T  F 
+F T T  F  T 
+F T F  F  F 
+VALID 
+2. 
+P → Q ; Q   /  P 
+T T T  T  T 
+T F F  F  T 
+F T T  T  F 
+F T F  F  F 
+INVALID 
+3. 
+P → Q ; ~ Q  /  ~ P 
+T T T  F T  F T 
+T F F  T F  F T 
+F T T  F T  T F 
+F T F  T F  T F 
+VALID 
+4. 
+P → Q ; ~ P  /  ~ Q 
+T T T  F T  F T 
+T F F  F T  T F 
+F T T  T F  F T 
+F T F  T F  T F 
+INVALID 
+5. 
+P ∨ Q ; ~ P  /  Q 
+T T T  F T  T 
+T T F  F T  F 
+F T T  T F  T 
+F F F  T F  F 
+VALID 6. 
+P ∨ Q ; P   /  ~ Q 
+T T T  T  F T 
+T T F  T  T F 
+F T T  F  F T 
+F F F  F  T F 
+INVALID 
+7. 
+~ ( P & Q ) ; P   /  ~ Q 
+F  T T T   T  F T 
+T  T F F   T  T F 
+T  F F T   F  F T 
+T  F F F   F  T F 
+VALID 
+8. 
+~ ( P & Q ) ; ~ P  /  Q 
+F  T T T   F T  T 
+T  T F F   F T  F 
+T  F F T   T F  T 
+T  F F F   T F  F 
+INVALID 
+9. 
+P ↔ Q ; ~ P  /  ~ Q 
+T T T  F T  F T 
+T F F  F T  T F 
+F F T  T F  F T 
+F T F  T F  T F 
+VALID 
+10. 
+P ↔ Q ; Q   /  P 
+T T T  T  T 
+T F F  F  T 
+F F T  T  F 
+F T F  F  F 
+VALID 
+11. 
+P ∨ Q ; P  → Q  /  Q 
+T T T  T T T  T 
+T T F  T F F  F 
+F T T  F T T  T 
+F F F  F T F  F 
+VALID 
+84  Hardegree, Symbolic Logic  
+12. 
+P ∨ Q ; P  → Q  /  P & Q 
+T T T  T T T  T T T 
+T T F  T F F  T F F 
+F T T  F T T  F F T 
+F F F  F T F  F F F 
+INVALID 
+13. 
+P → Q ; P  → ~ Q  /  ~ P 
+T T T  T F F T  F T 
+T F F  T T T F  F T 
+F T T  F T F T  T F 
+F T F  F T T F  T F 
+VALID 
+14. 
+P → Q ; ~ P → Q  /  Q 
+T T T  F T T T  T 
+T F F  F T T F  F 
+F T T  T F T T  T 
+F T F  T F F F  F 
+VALID 
+15. 
+P ∨ Q ; ~ P → ~ Q  /  P & Q 
+T T T  F T T F T  T T T 
+T T F  F T T T F  T F F 
+F T T  T F F F T  F F T 
+F F F  T F T T F  F F F 
+INVALID 
+16. 
+P → Q ; ~ P → ~ Q  /  P ↔ Q 
+T T T  F T T F T  T T T 
+T F F  F T T T F  T F F 
+F T T  T F F F T  F F T 
+F T F  T F T T F  F T F 
+VALID 
+17. 
+~ P → ~ Q ; ~ Q → ~ P  /  P ↔ Q 
+F T T F T  F T T F T  T T T 
+F T T T F  T F F F T  T F F 
+T F F F T  F T T T F  F F T 
+T F T T F  T F T T F  F T F 
+VALID 
+Chapter 3: Validity in Sentential Logic  85  
+18. 
+~ P → ~ Q ; ~ Q → ~ P  /  P & Q 
+F T T F T  F T T F T  T T T 
+F T T T F  T F F F T  T F F 
+T F F F T  F T T T F  F F T 
+T F T T F  T F T T F  F F F 
+INVALID 
+19. 
+P ∨ ~ Q ; P  ∨ Q  /  P 
+T T F T  T T T  T 
+T T T F  T T F  T 
+F F F T  F T T  F 
+F T T F  F F F  F 
+VALID 
+20. 
+P → Q ; P  ∨ Q  /  P ↔ Q 
+T T T  T T T  T T T 
+T F F  T T F  T F F 
+F T T  F T T  F F T 
+F T F  F F F  F T F 
+INVALID 
+21. 
+~ ( P → Q ) ; P  → ~ P  /  ~ P & ~ Q 
+F  T T T   T F F T  F T F F T 
+T  T F F   T F F T  F T F T F 
+F  F T T   F T T F  T F F F T 
+F  F T F   F T T F  T F T T F 
+VALID 
+22. 
+~ ( P & Q ) ; ~ Q → P  /  P 
+F  T T T   F T T T  T 
+T  T F F   T F T T  T 
+T  F F T   F T T F  F 
+T  F F F   T F F F  F 
+INVALID 
+23. 
+P → Q ; Q  → R  /  P → R 
+T T T  T T T  T T T 
+T T T  T F F  T F F 
+T F F  F T T  T T T 
+T F F  F T F  T F F 
+F T T  T T T  F T T 
+F T T  T F F  F T F 
+F T F  F T T  F T T 
+F T F  F T F  F T F 
+VALID 
+86  Hardegree, Symbolic Logic  
+24. 
+P → Q ; Q  → R ; ~ P → R  /  R 
+T T T  T T T  F T T T  T 
+T T T  T F F  F T T F  F 
+T F F  F T T  F T T T  T 
+T F F  F T F  F T T F  F 
+F T T  T T T  T F T T  T 
+F T T  T F F  T F F F  F 
+F T F  F T T  T F T T  T 
+F T F  F T F  T F F F  F 
+VALID 
+25. 
+P → Q ; Q  → R  /  P & R 
+T T T  T T T  T T T 
+T T T  T F F  T F F 
+T F F  F T T  T T T 
+T F F  F T F  T F F 
+F T T  T T T  F F T 
+F T T  T F F  F F F 
+F T F  F T T  F F T 
+F T F  F T F  F F F 
+INVALID 
+26. 
+P → Q ; Q  → R ; R  → P  /  P ↔ R 
+T T T  T T T  T T T  T T T 
+T T T  T F F  F T T  T F F 
+T F F  F T T  T T T  T T T 
+T F F  F T F  F T T  T F F 
+F T T  T T T  T F F  F F T 
+F T T  T F F  F T F  F T F 
+F T F  F T T  T F F  F F T 
+F T F  F T F  F T F  F T F 
+VALID 
+27. 
+P → Q ; Q  → R  /  R 
+T T T  T T T  T 
+T T T  T F F  F 
+T F F  F T T  T 
+T F F  F T F  F 
+F T T  T T T  T 
+F T T  T F F  F 
+F T F  F T T  T 
+F T F  F T F  F 
+INVALID 
+Chapter 3: Validity in Sentential Logic  87  
+28. 
+P → R ; Q  → R  /  ( P ∨ Q ) → R 
+T T T  T T T   T T T  T T 
+T F F  T F F   T T T  F F 
+T T T  F T T   T T F  T T 
+T F F  F T F   T T F  F F 
+F T T  T T T   F T T  T T 
+F T F  T F F   F T T  F F 
+F T T  F T T   F F F  T T 
+F T F  F T F   F F F  T F 
+VALID 
+29. 
+P → Q ; P  → R  /  Q & R 
+T T T  T T T  T T T 
+T T T  T F F  T F F 
+T F F  T T T  F F T 
+T F F  T F F  F F F 
+F T T  F T T  T T T 
+F T T  F T F  T F F 
+F T F  F T T  F F T 
+F T F  F T F  F F F 
+INVALID 
+30. 
+P ∨ Q ; P  → R ; Q  → R  /  R 
+T T T  T T T  T T T  T 
+T T T  T F F  T F F  F 
+T T F  T T T  F T T  T 
+T T F  T F F  F T F  F 
+F T T  F T T  T T T  T 
+F T T  F T F  T F F  F 
+F F F  F T T  F T T  T 
+F F F  F T F  F T F  F 
+VALID 
+31. 
+P → Q ; Q  → R ; R  → ~ P  /  ~ P 
+T T T  T T T  T F F T  F T 
+T T T  T F F  F T F T  F T 
+T F F  F T T  T F F T  F T 
+T F F  F T F  F T F T  F T 
+F T T  T T T  T T T F  T F 
+F T T  T F F  F T T F  T F 
+F T F  F T T  T T T F  T F 
+F T F  F T F  F T T F  T F 
+VALID 
+88  Hardegree, Symbolic Logic  
+32. 
+P → ( Q ∨ R ) ; Q  & R  /  ~ P 
+T T  T T T   T T T  F T 
+T T  T T F   T F F  F T 
+T T  F T T   F F T  F T 
+T F  F F F   F F F  F T 
+F T  T T T   T T T  T F 
+F T  T T F   T F F  T F 
+F T  F T T   F F T  T F 
+F T  F F F   F F F  T F 
+INVALID 
+33. 
+P → ( Q & R ) ; Q  → ~ R  /  ~ P 
+T T  T T T   T F F T  F T 
+T F  T F F   T T T F  F T 
+T F  F F T   F T F T  F T 
+T F  F F F   F T T F  F T 
+F T  T T T   T F F T  T F 
+F T  T F F   T T T F  T F 
+F T  F F T   F T F T  T F 
+F T  F F F   F T T F  T F 
+VALID 
+34. 
+P & ( Q ∨ R ) ; P  → ~ Q  /  R 
+T T  T T T   T F F T  T 
+T T  T T F   T F F T  F 
+T T  F T T   T T T F  T 
+T F  F F F   T T T F  F 
+F F  T T T   F T F T  T 
+F F  T T F   F T F T  F 
+F F  F T T   F T T F  T 
+F F  F F F   F T T F  F 
+VALID 
+35. 
+P → ( Q → R ) ; P  & ~ R  /  ~ Q 
+T T  T T T   T F F T  F T 
+T F  T F F   T T T F  F T 
+T T  F T T   T F F T  T F 
+T T  F T F   T T T F  T F 
+F T  T T T   F F F T  F T 
+F T  T F F   F F T F  F T 
+F T  F T T   F F F T  T F 
+F T  F T F   F F T F  T F 
+VALID 
+Chapter 3: Validity in Sentential Logic  89  
+36. 
+~ P ∨ Q ; R  → P ; ~ ( Q & R )  /  ~ R 
+F T T T  T T T  F  T T T   F T 
+F T T T  F T T  T  T F F   T F 
+F T F F  T T T  T  F F T   F T 
+F T F F  F T T  T  F F F   T F 
+T F T T  T F F  F  T T T   F T 
+T F T T  F T F  T  T F F   T F 
+T F T F  T F F  T  F F T   F T 
+T F T F  F T F  T  F F F   T F 
+VALID 
+90  Hardegree, Symbolic Logic  
+EXERCISE SET D 
+1. A: ~(P&Q) B: ~P& ~Q 
+(1) A / B INVALID 
+(2) B / A VALID 
+2. A:~(P&Q) B: ~P∨~Q 
+(1) A / B VALID 
+(2) B / A VALID 
+3. A: ~(P ∨Q) B: ~P∨~Q 
+(1) A / B VALID  
+(2) B / A INVALID 
+4. A: ~(P ∨Q) B: ~P& ~Q 
+(1) A / B VALID 
+(2) B / A VALID 
+5. A: ~(P →Q) B: ~P→~Q 
+(1) A / B VALID 
+(2) B / A INVALID 
+6. A: ~(P →Q) B: P& ~Q 
+(1) A / B VALID 
+(2) B / A VALID 
+7. A: ~(P ↔Q) B: ~P↔~Q 
+(1) A / B INVALID  
+(2) B / A INVALID 
+8. A: ~(P ↔Q) B: P ↔~Q  
+(1) A / B VALID  
+(2) B / A VALID 
+9  A: ~(P ↔Q) B: ~P↔Q  
+(1) A / B VALID  
+(2) B / A VALID 
+10. A: P ↔Q B: (P&Q) & (Q →P) 
+(1) A / B INVALID  
+(2) B / A VALID 
+11. A: P ↔Q B: (P →Q) & (Q →P) 
+(1) A / B VALID  
+(2) B / A VALID 
+12. A: P →Q B: Q →P 
+(1) A / B INVALID  
+(2) B / A INVALID 13. A: P →Q B: ~P→~Q 
+(1) A / B INVALID 
+(2) B / A INVALID 
+14. A: P →Q B: ~Q→~P 
+(1) A / B VALID 
+(2) B / A VALID 
+15. A: P →Q B: ~P∨Q 
+(1) A / B VALID 
+(2) B / A VALID 
+16. A: P →Q B: ~(P& ~Q) 
+(1) A / B VALID 
+(2) B / A VALID 
+17. A: ~P B  ~(P&Q) 
+(1) A / B VALID 
+(2) B / A INVALID 
+18. A: ~P B  ~(P ∨Q) 
+(1) A / B INVALID 
+(2) B / A VALID 
+19. A: ~(P ↔Q) B: (P&Q) → R 
+(1) A / B VALID  
+(2) B / A INVALID 
+20. A: (P&Q) → R B: P →R 
+(1) A / B INVALID  
+(2) B / A VALID 
+21. A: (P ∨Q) → R B: P →R 
+(1) A / B VALID  
+(2) B / A INVALID 
+22. A: (P&Q) →R B: P → (Q →R)  
+(1) A / B VALID  
+(2) B / A VALID 
+23. A: P → (Q&R) B: P →Q 
+(1) A / B VALID 
+(2) B / A INVALID 
+24. A: P → (Q ∨R) B: P →Q  
+(1) A / B INVALID 
+(2) B / A VALID 
+ 
+ANSWERS TO EXERCISES FOR CHAPTER 4 
+1. R & J 
+2. ~R & W 
+3. J & K 
+4. D & ~H 
+5. T & ~Q 
+6. R & (J & K) 
+ R:  Jay and Kay are roommates 
+ J:  Jay hates Kay 
+ K: Kay hates Jay 
+7. (J & K) & (H & N) 
+ J: Jay is a Republican; K: Kay is a Republican 
+ H: Jay hates Nixon; N: Kay hates Nixon 
+8. K → A 
+9. G → T 
+10. C ∨ S 
+11. F ∨ D 
+12. ~(J & K) 
+13. (J ∨ K) & ~(J & K) 
+14. R ∨ (S & C) 
+15. (R ∨ O) & ~S 
+16. J → S 
+17. ~J → ~S 
+18. C → ~F 
+19. (L & H) → G 
+20. ~(L & H) → ~G 
+21. ~J & ~K   [or: ~(J ∨ K)] 
+22. L & ( ~T & ~B)   [or: L & ~(T ∨ B)] 
+23. ~P → ~G 
+24. ~~J → ~K  [J → ~K] 
+25. ~(W & R) → ~S 
+26. ~S → B 
+27. ~G → ~F 
+28. ~(L & H) → ~G 
+29. H → A 
+30. ~F → ~P 
+31. ~(R & I) → ~P 
+32. (~F → ~P) & (F → P) 
+33. (H → A) & ~(~H → ~A) 
+34. (~T → ~A) & ~(T → A) 
+35. [~(G & A) → ~M] & ~[(G & A) → M] 
+36. [~(E & ~M) → ~B] & [(E & ~M) → B] 
+37. [(C & G) → A] & ~[~(C & G) → ~A] 
+38. (R → B) & ( ~R → J) 
+39. [(J & K) → B] & [ ~(J & K) → S] 
+40. (~I → J) & (I → S) 
+41. (J & K) → (D & C) 
+Chapter 4: Translations in Sentential Logic  139  
+42. (~J & ~K) → (P ∨ C) 
+43. (~S & ~T) → (J & K) 
+ S: Jay is sick;   T: Kay is sick; 
+ J: Jay will go to the beach;   K: Kay will go to t he beach. 
+44. (A → D) & ( ~A → D) 
+ A: I do (what ever action is being discussed); 
+ D: I am damned. 
+45. (S → ~E) & (F → ~E) 
+46. (N → T) & (T → N) 
+47. (~T → ~W) → ~S 
+48. ~S → ( ~A → ~P) 
+49. ~H → (S → P) 
+50. ~D → (C → P) 
+51. ~E → ( ~S → ~P) 
+52. I → ( ~G → ~F) 
+53. ~P → ( ~E → K) 
+54. C → ( ~P → K) 
+55. B → [(W → H) & ( ~W → ~H)] 
+56. (~J & ~K) → ( ~S → ~H) 
+57. (M & ~K) → ( ~E → A) 
+58. ~F → [ ~(W & S) → ~G] 
+59. (~K → ~J) → ( ~K → C) 
+60. (∼∼J → ~K) → (W → D) 
+61. (∼∼J → ∼K) → (C ∨ ~I) 
+62. (~K → ~J) → ( ~K → C) 
+63. (~I → ~C) → ( ~I → ~S) 
+64. (~D → ~H) → ( ~D → ~H) 
+65. ~C → ( ~G → ~A) 
+66. (~C → ~H) & (C → [T & ~H]) 
+67. ~M → [( ~A → ~C) → ( ~S → ~F)] 
+68. (~A → ~C) → [ ~M → ( ~S → ~F)] 
+69. (~A → ~C) → [W → ( ~S → ~F)] 
+70. (~C → ~P) → [( ~T → ~C) → ( ~T → ~P)] 
+71. [( ~J & ~K) → B] & [ ~(~J & ~K) → S] 
+140  Hardegree, Symbolic Logic  
+ 
+ANSWERS TO EXERCISES FOR CHAPTER 5 
+EXERCISE SET A 
+#1: 
+(1) P Pr 
+(2) P → Q Pr 
+(3) Q → R Pr 
+(4) R → S Pr 
+(5) Q 1,2,MP 
+(6) R 3,5,MP 
+(7) S 4,6,MP 
+ 
+#2: 
+(1) P → Q Pr 
+(2) Q → R Pr 
+(3) R → S Pr 
+(4) ~S Pr 
+(5) ~R 3,4,MT 
+(6) ~Q 2,5,MT 
+(7) ~P 1,6,MT 
+ 
+#3: 
+(1) ~P ∨ Q Pr 
+(2) ~Q Pr 
+(3) P ∨ R Pr 
+(4) ~P 1,2,MTP2 
+(5) R 3,4,MTP1 
+ 
+#4: 
+(1) P ∨ Q Pr 
+(2) ~P Pr 
+(3) Q → R Pr 
+(4) Q 1,2,MTP1 
+(5) R 3,4,MP 
+ 
+#5: 
+(1) P Pr 
+(2) P → ~Q Pr 
+(3) R → Q Pr 
+(4) ~R → S Pr 
+(5) ~Q 1,2,MP 
+(6) ~R 3,5,MT 
+(7) S 4,6,MP 
+ 
+#6: 
+(1) P ∨ ~Q Pr 
+(2) ~P Pr 
+(3) R → Q Pr 
+(4) ~R → S Pr 
+(5) ~Q 1,2,MTP1 
+(6) ~R 3,5,MT 
+(7) S 4,6,MP 
+ #7: 
+(1) (P → Q) → P Pr 
+(2) P → Q Pr 
+(3) P 1,2,MP 
+(4) Q 2,3,MP 
+ 
+#8: 
+(1) (P → Q) → R Pr 
+(2) R → P Pr 
+(3) P → Q  Pr 
+(4) R 1,3,MP 
+(5) P 2,4,MP 
+(6) Q 3,5,MP 
+ 
+#9: 
+(1) (P → Q) → (Q → R) Pr 
+(2) P → Q Pr 
+(3) P Pr 
+(4) Q → R 1,2,MP 
+(5) Q 2,3,MP 
+(6) R 4,5,MP 
+ 
+#10: 
+(1) ~P → Q Pr 
+(2) ~Q Pr 
+(3) R ∨ ~P Pr 
+(4) ~~P 1,2,MT 
+(5) R 3,4,MTP2 
+ 
+#11: 
+(1) ~P → ( ~Q ∨ R) Pr 
+(2) P → R Pr 
+(3) ~R Pr 
+(4) ~P 2,3,MT 
+(5) ~Q ∨ R 1,4,MP 
+(6) ~Q 3,5,MTP2 
+ 
+#12: 
+(1) P → ~Q Pr 
+(2) ~S → P Pr 
+(3) ~~Q Pr 
+(4) ~P 1,3,MT 
+(5) ~~S 2,4,MT 
+ 
+#13: 
+(1) P ∨ Q Pr 
+(2) Q → R Pr 
+(3) ~R Pr 
+(4) ~Q 2,3,MT 
+(5) P 1,4,MTP2 
+ 
+204  Hardegree, Symbolic Logic  
+#14: 
+(1) ~P → (Q ∨ R) Pr 
+(2) P → Q Pr 
+(3) ~Q Pr 
+(4) ~P 2,3,MT 
+(5) Q ∨ R 1,4,MP 
+(6) R 3,5,MTP1 
+ 
+#15: 
+(1) P → R Pr 
+(2) ~P → (S ∨ R) Pr 
+(3) ~R Pr 
+(4) ~P 1,3,MT 
+(5) S ∨ R 2,4,MP 
+(6) S 3,6,MTP2 
+ 
+#16: 
+(1) P ∨ ~Q Pr 
+(2) ~R → ~~Q Pr 
+(3) R → ~S Pr 
+(4) ~~S Pr 
+(5) ~R 3,4,MT 
+(6) ~~Q 2,5,MP 
+(7) P 1,6,MTP2 
+ 
+#17: 
+(1) (P → Q) ∨ (R → S) Pr 
+(2) (P → Q) → R Pr 
+(3) ~R Pr 
+(4) ~(P → Q) 2,3,MT 
+(5) R → S 1,4,MTP1 
+ 
+#18: 
+(1) (P → Q) → (R → S) Pr 
+(2) (R → T) ∨ (P → Q) Pr 
+(3) ~(R → T) Pr 
+(4) P → Q 2,3,MTP1 
+(5) R → S 1,4,MP 
+ 
+#19: 
+(1) ~R → (P ∨ Q) Pr 
+(2) R → P Pr 
+(3) (R → P) → ~P Pr 
+(4) ~P 2,3,MP 
+(5) ~R 2,4,MT 
+(6) P ∨ Q 1,5,MP 
+(7) Q 4,6,MTP1 
+ 
+#20: 
+(1) (P → Q) ∨ R Pr 
+(2) [(P → Q) ∨ R] → ~R Pr 
+(3) (P → Q) → (Q → R) Pr 
+(4) ~R 1,2,MP 
+(5) P → Q 1,4,MTP2 
+(6) Q → R 3,5,MP 
+(7) ~Q 4,6,MT 
+ EXERCISE SETS B-H 
+#1: 
+(1) P Pr 
+(2) P → Q Pr 
+(3) Q → R Pr 
+(4) R → S Pr 
+(5)  : S DD 
+(6) |Q 1,2, →O 
+(7) |R 3,6, →O 
+(8) |S 4,7, →O 
+ 
+#2: 
+(1) P → Q Pr 
+(2) Q → R Pr 
+(3) R → S Pr 
+(4) ~S Pr 
+(5)  : ~P DD 
+(6) |~R 3,4, →O 
+(7) |~Q 2,6, →O 
+(8) |~P 1,7, →O 
+ 
+#3: 
+(1) ~P ∨ Q Pr 
+(2) ~Q Pr 
+(3) P ∨ R Pr 
+(4)  : R DD 
+(5) |~P 1,2, ∨O 
+(6) |R 3,5, ∨O 
+ 
+#4: 
+(1) P ∨ Q Pr 
+(2) ~P Pr 
+(3) Q → R Pr 
+(4)  : R DD 
+(5) |Q 1,2, ∨O 
+(6) |R 3,5, →O 
+ 
+#5: 
+(1) P Pr 
+(2) P → ~Q Pr 
+(3) R → Q Pr 
+(4) ~R → S Pr 
+(5)  : S DD 
+(6) |~Q 1,2, →O 
+(7) |~R 3,6, →O 
+(8) |S 4,7, →O 
+ 
+Chapter 5: Derivations in Sentential Logic  205  
+#6: 
+(1) P ∨ ~Q Pr 
+(2) ~P Pr 
+(3) R → Q Pr 
+(4) ~R → S Pr 
+(5)  : S DD 
+(6) |~Q 1,2, ∨O 
+(7) |~R 3,6, →O 
+(8) |S 4,7, →O 
+ 
+#7: 
+(1) (P → Q) → P Pr 
+(2) P → Q Pr 
+(3)  : Q DD 
+(4) |P 1,2, →O 
+(5) |Q 2,4, →O 
+ 
+#8: 
+(1) (P → Q) → R Pr 
+(2) R → P Pr 
+(3) P → Q  Pr 
+(4)  : Q DD 
+(5) |R 1,3, →O 
+(6) |P 2,5, →O 
+(7) |Q 3,6, →O 
+ 
+#9: 
+(1) (P → Q) → (Q → R) Pr 
+(2) P → Q Pr 
+(3) P Pr 
+(4)  : R DD 
+(5) |Q → R 1,2, →O 
+(6) |Q 2,3, →O 
+(7) |R 5,6, →O 
+ 
+#10: 
+(1) ~P → Q Pr 
+(2) ~Q Pr 
+(3) R ∨ ~P Pr 
+(4)  : R DD 
+(5) |~~ P 1,2, →O 
+(6) |R 3,5, ∨O 
+ 
+#11: 
+(1) ~P → ( ~Q ∨ R) Pr 
+(2) P → R Pr 
+(3) ~R Pr 
+(4)  : ~Q DD 
+(5) |~P 2,3, →O 
+(6) |~Q ∨ R 1,5, →O 
+(7) |~Q 3,6, ∨O 
+ #12: 
+(1) P → ~Q Pr 
+(2) ~S → P Pr 
+(3) ~~Q Pr 
+(4)  : ~~S DD 
+(5) |~P 1,3, →O 
+(6) |~~ S 2,5, →O 
+ 
+#13: 
+(1) P ∨ Q Pr 
+(2) Q → R Pr 
+(3) ~R Pr 
+(4)  : P DD 
+(5) |~Q 2,3, →O 
+(6) |P 1,5, ∨O 
+ 
+#14: 
+(1) ~P → (Q ∨ R) Pr 
+(2) P → Q Pr 
+(3) ~Q Pr 
+(4)  : R DD 
+(5) |~P 2,3, →O 
+(6) |Q ∨ R 1,5, →O 
+(7) |R 3,6, ∨O 
+ 
+#15: 
+(1) P → R Pr 
+(2) ~P → (S ∨ R) Pr 
+(3) ~R Pr 
+(4)  : S DD 
+(5) |~P 1,3, →O 
+(6) |S ∨ R 2,5, →O 
+(7) |S 3,6, ∨O 
+ 
+#16: 
+(1) P ∨ ~Q Pr 
+(2) ~R → ~~Q Pr 
+(3) R → ~S Pr 
+(4) ~~S Pr 
+(5)  : P DD 
+(6) |~R 3,4, →O 
+(7) |~~ Q 2,6, →O 
+(8) |P 1,7, ∨O 
+ 
+#17: 
+(1) (P → Q) ∨ (R → S) Pr 
+(2) (P → Q) → R Pr 
+(3) ~R Pr 
+(4)  : R → S DD 
+(5) |~(P → Q) 2,3, →O 
+(6) |R → S 1,5, ∨O 
+ 
+206  Hardegree, Symbolic Logic  
+#18: 
+(1) (P → Q) → (R → S) Pr 
+(2) (R → T) ∨ (P → Q) Pr 
+(3) ~(R → T) Pr 
+(4)  : R → S DD 
+(5) |P → Q 2,3, ∨O 
+(6) |R → S 1,5, →O 
+ 
+#19: 
+(1) ~R → (P ∨ Q) Pr 
+(2) R → P Pr 
+(3) (R → P) → ~P Pr 
+(4)  : Q DD 
+(5) |~P 2,3, →O 
+(6) |~R 2,5, →O 
+(7) |P ∨ Q 1,6, →O 
+(8) |Q 5,7, ∨O 
+ 
+#20: 
+(1) (P → Q) ∨ R Pr 
+(2) [(P → Q) ∨ R] → ~R Pr 
+(3) (P → Q) → (Q → R) Pr 
+(4)  : ~Q DD 
+(5) |~R 1,2, →O 
+(6) |P → Q 1,5, ∨O 
+(7) |Q → R 3,6, →O 
+(8) |~Q 5,7, →O 
+ 
+#21: 
+(1) P & Q Pr 
+(2) P → (R & S) Pr 
+(3)  : Q & S DD 
+(4) |P 1,&O 
+(5) |Q 1,&O 
+(6) |R & S 2,4, →O 
+(7) |S 6,&O 
+(8) |Q & S 5,7,&I 
+ 
+#22: 
+(1) P & Q Pr 
+(2) (P ∨ R) → S Pr 
+(3)  : P & S DD 
+(4) |P 1,&O 
+(5) |P ∨ R 4, ∨I 
+(6) |S 2,5, →O 
+(7) |P & S 4,6,&I 
+ #23: 
+(1) P Pr 
+(2) (P ∨ Q) → (R & S) Pr 
+(3) (R ∨ T) → U Pr 
+(4)  : U DD 
+(5) |P ∨ Q 1, ∨I 
+(6) |R & S 2,5, →O 
+(7) |R 6,&O 
+(8) |R ∨ T 7, ∨I 
+(9) |U 3,8, →O 
+ 
+#24: 
+(1) P → Q Pr 
+(2) P ∨ R Pr 
+(3) ~Q Pr 
+(4)  : R & ~P DD 
+(5) |~P 1,3, →O 
+(6) |R 2,5, ∨O 
+(7) |R & ~P 5,6,&I 
+ 
+#25: 
+(1) P → Q Pr 
+(2) ~R → (Q → S) Pr 
+(3) R → T Pr 
+(4) ~T & P Pr 
+(5)  : Q & S DD 
+(6) |~T 4,&O 
+(7) |~R 3,6, →O 
+(8) |Q → S 2,7, →O 
+(9) |P 4,&O 
+(10) |Q 1,9, →O 
+(11) |S 8,10: →O 
+(12) |Q & S 10,11,&I 
+ 
+#26: 
+(1) P → Q Pr 
+(2) R ∨ ~Q Pr 
+(3) ~R & S Pr 
+(4) (~P & S) → T Pr 
+(5)  : T DD 
+(6) |~R 3,&O 
+(7) |S 3,&O 
+(8) |~Q 2,6, ∨O 
+(9) |~P 1,8, →O 
+(10) |~P & S 7,9,&I 
+(11) |T 4,10, →O 
+ 
+Chapter 5: Derivations in Sentential Logic  207  
+#27: 
+(1) P ∨ ~Q Pr 
+(2) ~R → Q Pr 
+(3) R → ~S Pr 
+(4) S Pr 
+(5)  : P DD 
+(6) |~~ S 4,DN 
+(7) |~R 3,6, →O 
+(8) |Q 2,7, →O 
+(9) |~~ Q 8,DN 
+(10) |P 1,9, ∨O 
+ 
+#28: 
+(1) P & Q Pr 
+(2) (P ∨ T) → R Pr 
+(3) S → ~R Pr 
+(4)  : ~S DD 
+(5) |P 1,&O 
+(6) |P ∨ T 5, ∨I 
+(7) |R 2,6, →O 
+(8) |~~ R 7,DN 
+(9) |~S 3,8, →O 
+ 
+#29: 
+(1) P & Q Pr 
+(2) P → R Pr 
+(3) (P & R) → S Pr 
+(4)  : Q & S DD 
+(5) |P 1,&O 
+(6) |R 2,5, →O 
+(7) |P & R 5,6,&I 
+(8) |S 3,7, →O 
+(9) |Q 1,&O 
+(10) |Q & S 8,9,&I 
+ 
+#30: 
+(1) P → Q Pr 
+(2) Q ∨ R Pr 
+(3) (R & ~P) → S Pr 
+(4) ~Q Pr 
+(5)  : S DD 
+(6) |~P 1,4, →O 
+(7) |R 2,4, ∨O 
+(8) |R & ~P 6,7,&I 
+(9) |S 3,8, →O 
+ 
+#31: 
+(1) P & Q Pr 
+(2)  : Q & P DD 
+(3) |P 1,&O 
+(4) |Q 1,&O 
+(5) |Q & P 3,4,&I 
+ #32: 
+(1) P & (Q & R) Pr 
+(2)  : (P & Q) & R DD 
+(3) |P 1,&O 
+(4) |Q & R 1,&O 
+(5) |Q 4,&O 
+(6) |P & Q 3,5,&I 
+(7) |R 4,&O 
+(8) |(P & Q) & R 6,7,&I 
+ 
+#33: 
+(1) P Pr 
+(2)  : P & P DD 
+(3) |P & P 1,1,&I 
+ 
+#34: 
+(1) P Pr 
+(2)  : P & (P ∨ Q) DD 
+(3) |P ∨ Q 1, ∨I 
+(4) |P & (P ∨ Q) 1,3,&I 
+ 
+#35: 
+(1) P & ~P Pr 
+(2)  : Q DD 
+(3) |P  1,&O 
+(4) |~P 1,&O 
+(5) |P ∨ Q 3, ∨I 
+(6) |Q 4,5, ∨O 
+ 
+#36: 
+(1) P ↔ ~Q Pr 
+(2) Q Pr 
+(3) P ↔ ~S Pr 
+(4)  : S DD 
+(5) |P → ~Q 1, ↔O 
+(6) |~~ Q 2,DN 
+(7) |~P 5,6, →O 
+(8) |~S → P 3, ↔O 
+(9) |~~ S 7,8, →O 
+(10) |S 9,DN 
+ 
+#37: 
+(1) P & ~Q Pr 
+(2) Q ∨ (P → S) Pr 
+(3) (R & T) ↔ S Pr 
+(4)  : P & R DD 
+(5) |P 1,&O 
+(6) |~Q 1,&O 
+(7) |P → S 2,6, ∨O 
+(8) |S 5,7, →O 
+(9) |S → (R & T) 3, ↔O 
+(10) |R & T 8,9, →O 
+(11) |R 10:&O 
+(12) |P & R 5,11,&I 
+ 
+208  Hardegree, Symbolic Logic  
+#38: 
+(1) P → Q Pr 
+(2) (P → Q) → (Q → P) Pr 
+(3) (P ↔ Q) → P Pr 
+(4)  : P & Q DD 
+(5) |Q → P 1,2, →O 
+(6) |P ↔ Q 1,5, ↔I 
+(7) |P 3,6, →O 
+(8) |Q 1,7, →O 
+(9) |P & Q 7,8,&I 
+ 
+#39: 
+(1) ~P & Q Pr 
+(2) (R ∨ Q) → ( ~S → P) Pr 
+(3) ~S ↔ T Pr 
+(4)  : ~T DD 
+(5) |Q 1,&O 
+(6) |R ∨ Q 5, ∨I 
+(7) |~S → P 2,6, →O 
+(8) |~P 1,&O 
+(9) |~~ S 7,8, →O 
+(10) |T → ~S 3, ↔O 
+(11) |~T 9,10, →O 
+ 
+#40: 
+(1) P & ~Q Pr 
+(2) Q ∨ (R → S) Pr 
+(3) ~V → ~P Pr 
+(4) V → (S → R) Pr 
+(5) (R ↔ S) → T Pr 
+(6) U ↔ ( ~Q & T) Pr 
+(7)  : U DD 
+(8) |P 1,&O 
+(9) |~~ P 8,DN 
+(10) |~~ V 3,9, →O 
+(11) |V 10,DN 
+(12) |S → R 4,11, →O 
+(13) |~Q 1,&O 
+(14) |R → S 2,13, ∨O 
+(15) |R ↔ S 12,14, ↔I 
+(16) |T 5,15, →O 
+(17) |~Q & T 13,16,&I 
+(18) |(~Q & T) → U 6, ↔O 
+(19) |U 17,18, →O 
+ 
+#41: 
+(1) (P ∨ Q) → R Pr 
+(2)  : Q → R CD 
+(3) |Q As 
+(4) | : R DD 
+(5) ||P ∨ Q 3, ∨I 
+(6) ||R 1,5, →O 
+ #42: 
+(1) Q → R Pr 
+(2)  : (P & Q) → (P & R) CD 
+(3) |P & Q As 
+(4) | : P & R DD 
+(5) ||P 3,&O 
+(6) ||Q 3,&O 
+(7) ||R 1,6, →O 
+(8) ||P & R 5,7,&I 
+ 
+#43: 
+(1) P → Q Pr 
+(2)  : (Q → R) → (P → R) CD 
+(3) |Q → R As 
+(4) | : P → R CD 
+(5) ||P As 
+(6) || : R DD 
+(7) |||Q 1,5, →O 
+(8) |||R 3,7, →O 
+ 
+#44: 
+(1) P → Q Pr 
+(2)  : (R → P) → (R → Q) CD 
+(3) |R → P As 
+(4) | : R → Q CD 
+(5) ||R As 
+(6) || : Q DD 
+(7) |||P 3,5, →O 
+(8) |||Q 1,7, →O 
+ 
+#45: 
+(1) (P & Q) → R Pr 
+(2)  : P → (Q → R) CD 
+(3) |P As 
+(4) | : Q → R CD 
+(5) ||Q As 
+(6) || : R DD 
+(7) |||P & Q 3,5,&I 
+(8) |||R 1,7, →O 
+ 
+#46: 
+(1) P → (Q → R) Pr 
+(2)  : (P → Q) → (P → R) CD 
+(3) |P → Q As 
+(4) | : P → R CD 
+(5) ||P  As 
+(6) || : R DD 
+(7) |||Q 3,5, →O 
+(8) |||Q → R 1,5, →O 
+(9) |||R 7,8, →O 
+ 
+Chapter 5: Derivations in Sentential Logic  209  
+#47: 
+(1) (P & Q) → R Pr 
+(2)  : [(P →Q) →P] →[(P →Q) →R]CD 
+(3) |(P → Q) → P As 
+(4) | : (P → Q) → R  CD 
+(5) ||P → Q As 
+(6) || : R DD 
+(7) |||P 3,5, →O 
+(8) |||Q 5,7, →O 
+(9) |||P & Q 7,8,&I 
+(10) |||R 1,9, →O 
+ 
+#48: 
+(1) (P & Q) → (R → S) Pr 
+(2)  : (P → Q) → [(P & R) → S] CD 
+(3) |P → Q As 
+(4) | : (P & R) → S CD 
+(5) ||P & R As 
+(6) || : S DD 
+(7) |||P 5,&O 
+(8) |||Q 3,7, →O 
+(9) |||P & Q 7,8,&I 
+(10) |||R → S 1,9, →O 
+(11) |||R 5,&O 
+(12) |||S 10:11 →O 
+ 
+#49: 
+(1) [(P & Q) & R] → S Pr 
+(2)  : P → [Q → (R → S)] CD 
+(3) |P As 
+(4) | : Q → (R → S) CD 
+(5) ||Q As 
+(6) || : R → S CD 
+(7) |||R As 
+(8) ||| : S DD 
+(9) |||| P & Q 3,5,&I 
+(10) |||| (P & Q) & R 7,9,&I 
+(11) |||| S 1,10, →O 
+ 
+#50: 
+(1) (~P & Q) → R Pr 
+(2)  : ( ~Q → P) → ( ~P → R) CD 
+(3) |~Q → P As 
+(4) | : ~P → R CD 
+(5) ||~ P As 
+(6) || : R DD 
+(7) |||~~ Q 3,5, →O 
+(8) |||Q 7,DN 
+(9) |||~ P & Q 5,8,&I 
+(10) |||R 1,9, →O 
+ #51: 
+(1) P → Q Pr 
+(2) P → ~Q Pr 
+(3)  : ~P ID 
+(4) |P As 
+(5) | :  DD 
+(6) ||Q 1,4, →O 
+(7) ||~ Q 2,4, →O 
+(8) || 6,7, I 
+ 
+#52: 
+(1) P → Q Pr 
+(2) Q → ~P Pr 
+(3)  : ~P ID 
+(4) |P As 
+(5) | :  DD 
+(6) ||Q 1,4, →O 
+(7) ||~~ P 4,DN 
+(8) ||~ Q 2,7, →O 
+(9) || 6,8, I 
+ 
+#53: 
+(1) P → Q Pr 
+(2) ~Q ∨ ~R Pr 
+(3) P → R Pr 
+(4)  : ~P ID 
+(5) |P As 
+(6) | :  DD 
+(7) ||Q 1,5, →O 
+(8) ||~~ Q 7,DN 
+(9) ||~ R 2,8, ∨O 
+(10) ||~ P 3,9: →O 
+(11) || 5,10, I 
+ 
+#54: 
+(1) P → R Pr 
+(2) Q → ~R Pr 
+(3)  : ~(P & Q) ID 
+(4) |P & Q As 
+(5) | :  DD 
+(6) ||P 4,&O 
+(7) ||Q 4,&O 
+(8) ||R 1,6, →O 
+(9) ||~ R 2,7, →O 
+(10) || 8,9, I 
+ 
+#55: 
+(1) P & Q Pr 
+(2)  : ~(P → ~Q) ID 
+(3) |P → ~Q As 
+(4) | :  DD 
+(5) ||P 1,&O 
+(6) ||Q 1,&O 
+(7) ||~ Q 3,5, →O 
+(8) || 6,7, I 
+ 
+210  Hardegree, Symbolic Logic  
+#56: 
+(1) P & ~Q Pr 
+(2)  : ~(P → Q) ID 
+(3) |P → Q As 
+(4) | :  DD 
+(5) ||P 1,&O 
+(6) ||~ Q 1,&O 
+(7) ||Q 3,5, →O 
+(8) || 6,7, I 
+ 
+#57: 
+(1) ~P Pr 
+(2)  : ~(P & Q) ID 
+(3) |P & Q As 
+(4) | :  DD 
+(5) ||P 3,&O 
+(6) || 1,5, I 
+ 
+#58: 
+(1) ~P & ~Q Pr 
+(2)  : ~(P ∨ Q) ID 
+(3) |P ∨ Q As 
+(4) | :  DD 
+(5) ||~ P 1,&O 
+(6) ||~ Q 1,&O 
+(7) ||Q 3,5, ∨O 
+(8) || 6,7, I 
+ 
+#59: 
+(1) P ↔ Q Pr 
+(2) ~Q Pr 
+(3)  : ~(P ∨ Q) ID 
+(4) |P ∨ Q As 
+(5) | :  DD 
+(6) ||P 2,4, ∨O 
+(7) ||P → Q 1, ↔O 
+(8) ||Q 6,7, →O 
+(9) || 2,8, I 
+ 
+#60: 
+(1) P & Q Pr 
+(2)  : ~(~P ∨ ~Q) ID 
+(3) |~P ∨ ~Q As 
+(4) | :  DD 
+(5) ||P 1,&O 
+(6) ||Q 1,&O 
+(7) ||~~ P 5,DN 
+(8) ||~ Q 3,7, ∨O 
+(9) || 6,8, I 
+ #61: 
+(1) ~P ∨ ~Q Pr 
+(2)  : ~(P & Q) ID 
+(3) |P & Q As 
+(4) | :  DD 
+(5) ||P 3,&O 
+(6) ||Q 3:&O 
+(7) ||~~ P 5,DN 
+(8) ||~ Q 1,7, ∨O 
+(9) || 6,8, I 
+ 
+#62: 
+(1) P ∨ Q Pr 
+(2)  : ~(~P & ~Q) ID 
+(3) |~P & ~Q As 
+(4) | :  DD 
+(5) ||~ P 3,&O 
+(6) ||~ Q 3,&O 
+(7) ||Q 1,5, ∨O 
+(8) || 6,7, I 
+ 
+#63: 
+(1) P → Q Pr 
+(2)  : ~(P & ~Q) ID 
+(3) |P & ~Q As 
+(4) | :  DD 
+(5) ||P 3,&O 
+(6) ||~ Q 3,&O 
+(7) ||Q 1,5, →O 
+(8) || 6,7, I 
+ 
+#64: 
+(1) P → (Q → ~P) Pr 
+(2)  : P → ~Q CD 
+(3) |P As 
+(4) | : ~Q ID 
+(5) ||Q As 
+(6) || :  DD 
+(7) ||Q → ~P 1,3, →O 
+(8) ||~ P 5,7, →O 
+(9) || 3,8, I 
+ 
+#65: 
+(1) (P & Q) → R Pr 
+(2)  : (P & ~R) → ~Q CD 
+(3) |P & ~R As 
+(4) | : ~Q ID 
+(5) ||Q As 
+(6) || :  DD 
+(7) |||P 3,&O 
+(8) |||P & Q 5,7,&I 
+(9) |||R 1,8, →O 
+(10) |||~ R 3,&O 
+(11) |||  9,10, I 
+ 
+Chapter 5: Derivations in Sentential Logic  211  
+#66: 
+(1) (P & Q) → ~R Pr 
+(2)  : P → ~(Q & R) CD 
+(3) |P As 
+(4) | : ~(Q & R) ID 
+(5) ||Q & R As 
+(6) || :  DD 
+(7) |||Q 5,&O 
+(8) |||P & Q 3,7,&I 
+(9) |||~ R 1,8, →O 
+(10) |||R 5,&O 
+(11) |||  9,10, I 
+ 
+#67: 
+(1) P → (Q → R) Pr 
+(2)  : (Q & ~R) → ~P CD 
+(3) |Q & ~R As 
+(4) | : ~P ID 
+(5) ||P As 
+(6) || :  DD 
+(7) |||Q → R 1,5, →O 
+(8) |||Q 3,&O 
+(9) |||R 7,8, →O 
+(10) |||~ R 3,&O 
+(11) |||  9,10, I 
+ 
+#68: 
+(1) P → ~(Q & R) Pr 
+(2)  : (P & Q) → ~R CD 
+(3) |P & Q As 
+(4) | : ~R ID 
+(5) ||R As 
+(6) || :  DD 
+(7) |||P 3,&O 
+(8) |||Q 3,&O 
+(9) |||Q & R 5,8,&I 
+(10) |||~ (Q & R) 1,7, →O 
+(11) |||  9:10, I 
+ 
+#69: 
+(1) P → ~(Q & R) Pr 
+(2)  : (P → Q) → (P → ~R) CD 
+(3) |P → Q As 
+(4) | : P → ~R CD 
+(5) ||P As 
+(6) || : ~R ID 
+(7) |||R As 
+(8) ||| :  DD 
+(9) |||| Q 3,5, →O 
+(10) |||| Q & R 7,9,&I 
+(11) ||||~ (Q & R) 1,5, →O 
+(12) ||||  10,11, I 
+ #70: 
+(1) P → (Q → R) Pr 
+(2)  : (P → ~R) → (P → ~Q) CD 
+(3) |P → ~R As 
+(4) | : P → ~Q CD 
+(5) ||P As 
+(6) || : ~Q ID 
+(7) |||Q As 
+(8) ||| :  DD 
+(9) |||Q → R 1,5, →O 
+(10) |||~ R 3,5, →O 
+(11) |||~ Q 9,10, →O 
+(12) |||  7,11, I 
+ 
+#71: 
+(1) P → Q Pr 
+(2) ~P → Q Pr 
+(3)  : Q ID 
+(4) |~Q As 
+(5) | :  DD 
+(6) ||~ P 1,4, →O 
+(7) ||~~ P 2,4, →O 
+(8) || 6,7, I 
+ 
+#72: 
+(1) P ∨ Q Pr 
+(2) P → R Pr 
+(3) Q ∨ ~R Pr 
+(4)  : Q ID 
+(5) |~Q As 
+(6) | :  DD 
+(7) ||P 1,5, ∨O 
+(8) ||R 2,7, →O 
+(9) ||~ R 3,5, ∨O 
+(10) || 8,9, I 
+ 
+#73: 
+(1) ~P → R Pr 
+(2) Q → R Pr 
+(3) P → Q Pr 
+(4)  : R ID 
+(5) |~R As 
+(6) | :  DD 
+(7) ||~ Q 2,5, →O 
+(8) ||~~ P 1,5, →O 
+(9) ||P 8,DN 
+(10) ||Q 3,9, →O 
+(11) || 7,10, I 
+ 
+212  Hardegree, Symbolic Logic  
+#74: 
+(1) (P ∨ ~Q) → (R & ~S) Pr 
+(2) Q ∨ S Pr 
+(3)  : Q ID 
+(4) |~Q As 
+(5) | :  DD 
+(6) ||P ∨ ~Q 4, ∨I 
+(7) ||R & ~S 1,6, →O 
+(8) ||~ S 7,&O 
+(9) ||S 2,4, ∨O 
+(10) || 8,9, I 
+ 
+#75: 
+(1) (P ∨ Q) → (R → S) Pr 
+(2) (~S ∨ T) → (P & R) Pr 
+(3)  : S ID 
+(4) |~S As 
+(5) | :  DD 
+(6) ||~ S ∨ T 4, ∨I 
+(7) ||P & R 2,6, →O 
+(8) ||P 7,&O 
+(9) ||P ∨ Q 8, ∨I 
+(10) ||R → S 1,9, →O 
+(11) ||R 7,&O 
+(12) ||S 10,11, →O 
+(13) || 4,12, I 
+ 
+#76: 
+(1) ~(P & ~Q) Pr 
+(2)  : P → Q CD 
+(3) |P As 
+(4) | : Q ID 
+(5) ||~ Q As 
+(6) || :  DD 
+(7) |||P & ~Q 3,5,&I 
+(8) |||  1,7, I 
+ 
+#77: 
+(1) P → ( ~Q → R) Pr 
+(2)  : (P & ~R) → Q CD 
+(3) |P & ~R As 
+(4) | : Q ID 
+(5) ||~ Q As 
+(6) || :  DD 
+(7) ||P 3,&O 
+(8) ||~ R 3,&O 
+(9) ||~ Q → R 1,7, →O 
+(10) ||~~ Q 8,9, →O 
+(11) || 5,10, I 
+ #78: 
+(1) P & (Q ∨ R) Pr 
+(2)  : ~(P & Q) → R CD 
+(3) |~(P & Q) As 
+(4) | : R ID 
+(5) ||~ R As 
+(6) || :  DD 
+(7) |||Q ∨ R 1,&O 
+(8) |||Q 5,7, ∨O 
+(9) |||P 1,&O 
+(10) |||P & Q 8,9,&I 
+(11) |||  3,10, I 
+ 
+ 
+#79: 
+(1) P ∨ Q Pr 
+(2)  : Q ∨ P ID 
+(3) |~(Q ∨ P) As 
+(4) | :  DD 
+(5) ||~ Q 3, ~∨O 
+(6) ||~ P 3, ~∨O 
+(7) ||Q 1,6, ∨O 
+(8) || 5,7, I 
+ 
+#80: 
+(1) ~P → Q Pr 
+(2)  : P ∨ Q ID 
+(3) |~(P ∨ Q) As 
+(4) | :  DD 
+(5) |||~ P 3, ~∨O 
+(6) |||~ Q 3, ~∨O 
+(7) |||Q 1,5, →O 
+(8) |||  6,7, I 
+ 
+#81: 
+(1) ~(P & Q) Pr 
+(2)  : ~P ∨ ~Q ID 
+(3) |~(~P ∨ ~Q) As 
+(4) | :  DD 
+(5) ||~~ P 3, ~∨O 
+(6) ||~~ Q 3, ~∨O 
+(7) ||P 5,DN 
+(8) ||Q 6,DN 
+(9) ||P & Q 7,8,&I 
+(10) || 1,9, I 
+ 
+#82: 
+(1) P → Q Pr 
+(2)  : ~P ∨ Q ID 
+(3) |~(~P ∨ Q) As 
+(4) | :  DD 
+(5) ||~~ P 3, ~∨O 
+(6) ||~ Q 3, ~∨O 
+(7) ||P 5,DN 
+(8) ||Q 1,7, →O 
+(9) || 6,8, I 
+ 
+Chapter 5: Derivations in Sentential Logic  213  
+#83: 
+(1) P ∨ Q Pr 
+(2) P → R Pr 
+(3) Q → S Pr 
+(4)  : R ∨ S ID 
+(5) |~(R ∨ S) As 
+(6) | :  DD 
+(7) ||~ R 5, ~∨O 
+(8) ||~ S 5, ~∨O 
+(9) ||~ P 2,7, →O 
+(10) ||~ Q 3,8, →O 
+(11) ||Q 1,9, ∨O 
+(12) || 10,11, I 
+ 
+#84: 
+(1) ~P → Q Pr 
+(2) P → R Pr 
+(3)  : Q ∨ R ID 
+(4) |~(Q ∨ R) As 
+(5) | :  DD 
+(6) ||~ Q 4, ~∨O 
+(7) ||~ R 4, ~∨O 
+(8) ||~~ P 1,6, →O 
+(9) ||P 8,DN 
+(10) ||R 2,9, →O 
+(11) || 7,10, I 
+ 
+#85: 
+(1) ~P → Q Pr 
+(2) ~R → S Pr 
+(3) ~Q ∨ ~S Pr 
+(4)  : P ∨ R ID 
+(5) |~(P ∨ R) As 
+(6) | :  DD 
+(7) ||~ P 5, ~∨O 
+(8) ||~ R 5, ~∨O 
+(9) ||Q 1,7, →O 
+(10) ||S 2,8, →O 
+(11) ||~~ Q 9,DN 
+(12) ||~ S 3,11, ∨O 
+(13) || 10,12, I 
+ 
+#86: 
+(1) (P & ~Q) → R Pr 
+(2)  : P → (Q ∨ R) CD 
+(3) |P As 
+(4) | : Q ∨ R ID 
+(5) ||~ (Q ∨ R) As 
+(6) || :  DD 
+(7) |||~ Q 5, ~∨O 
+(8) |||P & ~Q 3,7,&I 
+(9) |||R 1,8, →O 
+(10) |||~ R 5, ~∨O 
+(11) |||  9,10, I 
+ #87 
+(1) ~P → ( ~Q ∨ R) Pr 
+(2)  : Q → (P ∨ R) CD 
+(3) |Q As 
+(4) | : P ∨ R ID 
+(5) ||~ (P ∨ R) As 
+(6) || :  DD 
+(7) |||~ P 5, ~∨O 
+(8) |||~ R 5, ~∨O 
+(9) |||~ Q ∨ R 1,7, →O 
+(10) |||~ Q 8,9, ∨O 
+(11) |||  3,10, I 
+ 
+#88: 
+(1) P & (Q ∨ R) Pr 
+(2)  : (P & Q) ∨ R ID 
+(3) |~[(P & Q) ∨ R] As 
+(4) | :  DD 
+(5) ||~ (P & Q) 3, ~∨O 
+(6) ||~ R 3, ~∨O 
+(7) || P 1,&O 
+(8) || Q ∨ R 1,&O 
+(9) || Q 6,8, ∨O 
+(10) || P & Q 7,9,&I 
+(11) ||  5,10, I 
+ 
+#89: 
+(1) (P ∨ Q) & (P ∨ R) Pr 
+(2)  : P ∨ (Q & R) ID 
+(3) |~[P ∨ (Q & R)] As 
+(4) | :  DD 
+(5) ||~ P 3, ~∨O 
+(6) ||~ (Q & R) 3, ~∨O 
+(7) ||P ∨ Q 1,&O 
+(8) ||Q 5,7, ∨O 
+(9) ||P ∨ R 1,&O 
+(10) ||R 5,9, ∨O 
+(11) ||Q & R 8,10,&I 
+(12) || 6,11 I 
+ 
+#90: 
+(1) (P ∨ Q) → (P & Q) Pr 
+(2)  :  (P&Q) ∨ ( ~P & ~ Q) ID 
+(3) |~[(P & Q) ∨ ( ~P & ~Q)] As 
+(4) | :  DD 
+(5) ||~ (P & Q) 3, ~∨O 
+(6) ||~ (~P & ~Q) 3, ~∨O 
+(7) ||~ (P ∨ Q) 1,5, →O 
+(8) ||~ P 7, ~∨O 
+(9) ||~ Q 7, ~∨O 
+(10) ||~ P & ~Q 8,9,&I 
+(11) || 6,10, I 
+ 
+214  Hardegree, Symbolic Logic  
+#91: 
+(1) P → (Q & R) Pr 
+(2)  : (P → Q) & (P → R) DD 
+(3) | : P → Q CD 
+(4) ||P As 
+(5) || : Q DD 
+(6) |||Q & R 1,4, →O 
+(7) |||Q 6,&O 
+(8) | : P → R CD 
+(9) ||P As 
+(10) || : R DD 
+(11) |||Q & R 1,9, →O 
+(12) |||R 11&O 
+(13) |(P → Q) & (P → R) 3,8,&I 
+ 
+#92: 
+(1) (P ∨ Q) → R Pr 
+(2)  : (P → R) & (Q → R) DD 
+(3) | : P → R CD 
+(4) ||P As 
+(5) || : R DD 
+(6) |||P ∨ Q 4, ∨I 
+(7) |||R 1,6, →O 
+(8) | : Q → R CD 
+(9) ||Q As 
+(10) || : R DD 
+(11) |||P ∨ Q 9, ∨I 
+(12) |||R 1,11, →O 
+(13) |(P → R) & (Q → R) 3,8,&I 
+ 
+#93: 
+(1) (P ∨ Q) → (P & Q) Pr 
+(2)  : P ↔ Q DD 
+(3) | : P → Q CD 
+(4) || P As 
+(5) || : Q DD 
+(6) |||P ∨ Q 4, ∨I 
+(7) |||P & Q 1,6, →O 
+(8) |||Q 7,&O 
+(9) | : Q → P CD 
+(10) || Q As 
+(11) || : P DD 
+(12) |||P ∨ Q 10, ∨I 
+(13) |||P & Q 1,12, →O 
+(14) |||P 13,&O 
+(15) |P ↔ Q 3,9, ↔I 
+ 
+#94: 
+(1) P ↔ Q Pr 
+(2)  : Q ↔ P DD 
+(3) |P → Q 1, ↔O 
+(4) |Q → P 1, ↔O 
+(5) |Q ↔ P 3,4, ↔I 
+ #95: 
+(1) P ↔ Q Pr 
+(2)  : ~P ↔ ~Q DD 
+(3) | : ~P → ~Q CD 
+(4) || ~P As 
+(5) || : ~Q DD 
+(6) |||Q → P 1, ↔O 
+(7) |||~ Q 4,6, →O 
+(8) | : ~Q → ~P CD 
+(9) ||~ Q As 
+(10) || : ~P DD 
+(11) |||P → Q 1, ↔O 
+(12) |||~ P 9,11, →O 
+(13) | ~P ↔ ~Q 3,8, ↔I 
+ 
+#96: 
+(1) P ↔ Q Pr 
+(2) Q → ~P Pr 
+(3)  : ~P & ~Q DD 
+(4) | : ~P ID 
+(5) ||P As 
+(6) || :  DD 
+(7) |||P → Q 1, ↔O 
+(8) |||Q 5,7, →O 
+(9) |||~ P 2,8, →O 
+(10) |||  5,9, I 
+(11) | : ~Q ID 
+(12) ||Q As 
+(13) || :  DD 
+(14) |||Q → P 1, ↔O 
+(15) |||P 12,14, →O 
+(16) |||~ P 2,12, →O 
+(17) |||  15,16, I 
+(18) |~P & ~Q 4,11,&I 
+ 
+#97: 
+(1) (P → Q) ∨ ( ~Q → R) Pr 
+(2)  : P → (Q ∨ R) CD 
+(3) |P As 
+(4) | : Q ∨ R ID 
+(5) ||~ (Q ∨ R) As 
+(6) || :  DD 
+(7) |||~ Q 5, ~∨O 
+(8) |||~ R 5, ~∨O 
+(9) ||| : ~(P → Q) ID 
+(10) |||| P → Q As 
+(11) |||| :  DD 
+(12) ||||| Q 3,10, →O 
+(13) |||||  7,12, I 
+(14) |||~ Q → R 1,9, ∨O 
+(15) |||R 7,14, →O 
+(16) |||  8,15, I 
+ 
+Chapter 5: Derivations in Sentential Logic  215  
+#98: 
+(1) P ∨ Q Pr 
+(2) P → ~Q Pr 
+(3)  : (P → Q) → (Q & ~P) CD 
+(4) |P → Q As 
+(5) | : Q & ~P DD 
+(6) || : Q ID 
+(7) |||~ Q As 
+(8) ||| :  DD 
+(9) ||||~ P 4,7, →O 
+(10) |||| P 1,7, ∨O 
+(11) ||||  9,10, I 
+(12) || : ~P ID 
+(13) |||P As 
+(14) ||| :  DD 
+(15) |||| Q 4,13, →O 
+(16) ||||~ Q 2,13, →O 
+(17) ||||  15,16, I 
+(18) ||Q & ~P 6,12,&I 
+ 
+#99: 
+(1) P ∨ Q Pr 
+(2) ~(P & Q) Pr 
+(3)  : (P → Q) → ~(Q → P) CD 
+(4) |P → Q As 
+(5) | : ~(Q → P) ID 
+(6) ||Q → P As 
+(7) || :  DD 
+(8) ||| P → ∼Q 2, ∼&O 
+(9) ||| : ∼P ID 
+(10) |||| P As 
+(11) |||| :  DD 
+(12) ||||| Q 4,10, →O 
+(13) |||||∼Q 8,10, →O 
+(14) |||||  12,13, I 
+(15) |||Q 1,9, ∨O 
+(16) |||P 6,15, →O 
+(17) |||  9,16, I 
+ 
+#100: 
+(1) P ∨ Q Pr 
+(2) P → ~Q Pr 
+(3)  : (P & ~Q) ∨ (Q & ~P) ID 
+(4) |~[(P & ~Q) ∨ (Q & ~P)] As 
+(5) | :  DD 
+(6) ||~ (P & ~Q) 4, ~∨O 
+(7) ||~ (Q & ~P) 4, ~∨O 
+(8) || : ~P ID 
+(9) |||P As 
+(10) ||| :  DD 
+(11) ||||~ Q 2,9, →O 
+(12) |||| P & ~Q 9,11,&I 
+(13) ||||  6,12, I 
+(14) ||Q 1,8, ∨O 
+(15) ||Q & ~P 8,14,&I 
+(16) || 7,15, I 
+ #101: 
+(1) (P ∨ Q) → (P & Q) Pr 
+(2)  : ( ~P ∨ ~Q) → ( ~P & ~Q) CD 
+(3) |~P ∨ ~Q As 
+(4) | : ~P & ~Q DD 
+(5) || : ~P ID 
+(6) |||P As 
+(7) ||| :  DD 
+(8) |||| P ∨ Q 6, ∨I 
+(9) |||| P & Q 1,8, →O 
+(10) ||||~~ P 6,DN 
+(11) ||||~ Q 3,10, ∨O 
+(12) |||| Q 9,&O 
+(13) ||||  11,12, I 
+(14) || : ~Q ID 
+(15) |||Q As 
+(16) ||| :  DD 
+(17) |||| P ∨ Q 15, ∨I 
+(18) |||| P & Q 1,17, →O 
+(19) ||||~~ Q 15,DN 
+(20) ||||~ P 3,19, ∨O 
+(21) |||| P 18,&O 
+(22) ||||  20,21, I 
+(23) ||~ P & ~Q 5,14,&I 
+ 
+#102: 
+(1) P & (Q ∨ R) Pr 
+(2)  : (P & Q) ∨ (P & R) ID 
+(3) |~[(P & Q) ∨ (P & R)] As 
+(4) | :  DD 
+(5) ||~ (P & Q) 3, ~∨O 
+(6) ||~ (P & R) 3, ~∨O 
+(7) ||P 1,&O 
+(8) ||Q ∨ R 1,&O 
+(9) ||P → ∼Q 5, ∼&O 
+(10) ||P → ∼R 6, ∼&O 
+(11) ||∼Q 7,9, →O 
+(12) ||R 8,11, ∨O 
+(13) ||∼R 7,10, →O 
+(14) || 12,13, I 
+ 
+216  Hardegree, Symbolic Logic  
+#103: 
+(1) (P & Q) ∨ (P & R) Pr 
+(2)  : P & (Q ∨ R) DD 
+(3) | : P ID 
+(4) ||~ P As 
+(5) || :  DD 
+(6) ||| : ~(P & Q) ID 
+(7) |||| P & Q As 
+(8) |||| :  DD 
+(9) ||||| P 7,&O 
+(10) |||||  4,9, I 
+(13) |||P & R 1,6, ∨O 
+(14) |||P  13,&O 
+(15) |||  4,14, I 
+(16) | : Q ∨ R ID 
+(17) ||~ (Q ∨ R) As 
+(18) || :  DD 
+(19) |||~ Q 17, ~∨O 
+(20) |||~ R 17, ~∨O 
+(21) ||| : ~(P & Q) ID 
+(22) |||| P & Q As 
+(23) |||| :  DD 
+(24) ||||| Q 22,&O 
+(25) |||||  19.24, I 
+ 
+#104: 
+(1) P ∨ (Q & R) Pr 
+(2)  : (P ∨ Q) & (P ∨ R) DD 
+(3) | : P ∨ Q ID 
+(4) ||~ (P ∨ Q) As 
+(5) || :  DD 
+(6) |||~ P 4, ~∨O 
+(7) |||~ Q 4, ~∨O 
+(8) |||Q & R 1,6, ∨O 
+(9) |||Q 8,&O 
+(10) |||  7,9, I 
+(11) | : P ∨ R ID 
+(12) ||~ (P ∨ R) As 
+(13) || :  DD 
+(14) |||~ P 12, ~∨O 
+(15) |||~ R 12, ~∨O 
+(16) |||Q & R 1,14, ∨O 
+(17) |||Q 16,&O 
+(18) |||  15,17, I 
+(19) |(P ∨ Q) & (P ∨ R) 3,11,&I 
+ #105: 
+(1) (P&Q) ∨ [(P&R) ∨ (Q&R)] Pr 
+(2)  : P ∨ (Q & R) ID 
+(3) |~[P ∨ (Q & R)] As 
+(4) | :  DD 
+(5) ||~ P 3, ~∨O 
+(6) ||~ (Q & R) 3, ~∨O 
+(7) || : ~(P & Q) ID 
+(8) |||P & Q As 
+(9) ||| :  DD 
+(10) |||| P 8,&O 
+(11) ||||  5,10, I 
+(12) ||(P & R) ∨ (Q & R) 1,7, ∨O 
+(13) ||P & R 6,12, ∨O 
+(14) ||P 13,&O 
+(15) || 5,14, I 
+ 
+#106: 
+(1) P ∨ Q Pr 
+(2) P ∨ R Pr 
+(3) Q ∨ R Pr 
+(4)  : (P&Q) ∨[(P&R) ∨(Q&R)] ID 
+(5) |~{(P&Q) ∨[(P&R) ∨(Q&R)]} As 
+(6) | :  DD 
+(7) ||~ (P & Q) 5, ~∨O 
+(8) ||~ [(P & R) ∨ (Q & R)] 5, ~∨O 
+(8) ||~ (P & R) 8, ~∨O 
+(9) ||~ (Q & R) 8, ~∨O 
+(10) ||P → ~Q 7, ~&O 
+(11) ||P → ~R 8, ~&O 
+(12) ||Q → ~R 9, ~&O 
+(13) || : ~P ID 
+(14) |||P As 
+(15) ||| :  DD 
+(16) |||~ Q 10,14, →O 
+(17) |||~ R 11,14, →O 
+(18) |||R 3,16, ∨O 
+(19) |||  17,18, I 
+(20) ||Q 1,13, ∨O 
+(21) ||R 2,13, ∨O 
+(22) ||~ R 12,20, →O 
+(23) || 21,22, I 
+ 
+Chapter 5: Derivations in Sentential Logic  217  
+#107: 
+(1) (P → Q) ∨ (P → R) Pr 
+(2)  : P → (Q ∨ R) CD 
+(3) |P As 
+(4) | : Q ∨ R ID 
+(5) ||~ (Q ∨ R) As 
+(6) || :  DD 
+(7) |||~ Q 5, ~∨O 
+(8) |||~ R 5, ~∨O 
+(9) ||| : ~(P → Q) ID 
+(10) |||| P → Q As 
+(11) |||| :  DD 
+(12) ||||| Q 3,10, →O 
+(13) |||||  7,12, I 
+(14) |||P → R 1,9 ∨O 
+(15) |||R 3,14, →O 
+(16) |||  8,15, I 
+ 
+#108: 
+(1) (P → R) ∨ (Q → R) Pr 
+(2)  : (P & Q) → R CD 
+(3) |P & Q As 
+(4) | : R ID 
+(5) ||~ R As 
+(6) || :  DD 
+(7) ||| : ~(P → R) ID 
+(8) |||| P → R As 
+(9) |||| :  DD 
+(10) ||||| P 3,&O 
+(11) ||||| R 8,10, →O 
+(12) |||||  5,11, I 
+(13) |||Q → R 1,7, ∨O 
+(14) |||Q 3,&O 
+(15) |||R 13,14, →O 
+(16) |||  5,15, I 
+ 
+#109: 
+(1) P ↔ (Q & ~P) Pr 
+(2)  : ~(P ∨ Q) ID 
+(3) |P ∨ Q As 
+(4) | :  DD 
+(5) ||P → (Q & ~P) 1, ↔O 
+(6) || : P ID 
+(7) |||~ P As 
+(8) ||| :  DD 
+(9) |||| Q 3,7, ∨O 
+(10) |||| Q & ~P 7,9,&I 
+(11) |||| (Q & ~P) → P 1, →O 
+(12) |||| P 10,12, →O 
+(13) ||||  7,12, I 
+(14) ||Q & ~P 5,6, →O 
+(15) ||~ P 14,&O 
+(16) || 6,15, I 
+ #110: 
+(1) (P & Q) ∨ ( ~P & ~Q) Pr 
+(2)  : P ↔ Q DD 
+(3) | : P → Q CD 
+(4) || P As 
+(5) || : Q ID 
+(6) |||~ Q As 
+(7) ||| :  DD 
+(8) |||| : ~(P & Q) ID 
+(9) ||||| P & Q As 
+(10) ||||| :  DD 
+(11) |||||| Q 9,&O 
+(12) ||||||  6,11, I 
+(13) ||||~ P & ~Q 1,8, ∨O 
+(14) ||||~ P 13,&O 
+(15) ||||  4,14, I 
+(16) | : Q → P CD 
+(17) || Q As 
+(18) || : P ID 
+(19) |||~ P As 
+(20) ||| :  DD 
+(21) |||| : ~(P & Q) ID 
+(22) ||||| P & Q As 
+(23) ||||| :  DD 
+(24) |||||| P 22,&O 
+(25) ||||||  19,24, I 
+(26) ||||~ P & ~Q 1,21,&O 
+(27) ||||~ Q 26,&O 
+(28) ||||  17,27, I 
+(29) |P ↔ Q 3,16, ↔I 
+ 
+#111: 
+(1) P → (Q ∨ R) Pr 
+(2)  : (P → Q) ∨ (P → R) ID 
+(3) |~[(P → Q) ∨ (P → R)] As 
+(4) | :  DD 
+(5) ||~ (P → Q) 3, ~∨O 
+(6) ||~ (P → R) 3, ~∨O 
+(7) || P & ~Q 5, ~→O 
+(8) || P & ~R 6, ~→O 
+(9) || P 7,&O 
+(10) || ~Q 7,&O 
+(11) || ~R 8,&O 
+(12) || Q ∨ R 1,9, →O 
+(13) || R 10,12, ∨O 
+(14) ||  11,13, I 
+ 
+218  Hardegree, Symbolic Logic  
+#112: 
+(1) (P ↔ Q) → R Pr 
+(2)  : P → (Q → R) CD 
+(3) |P As 
+(4) | : Q → R CD 
+(5) ||Q As 
+(6) || : R DD 
+(7) |||~ R As 
+(8) ||| :  DD 
+(9) ||||~ (P ↔ Q) 1,7, →O 
+(10) ||||~ P ↔ Q 9, ~↔O 
+(11) |||| Q → ~P 9, ↔O 
+(12) ||||~ P 5,11, →O 
+(13) ||||  3,12, I 
+ 
+#113: 
+(1) P → ( ~Q → R) Pr 
+(2)  : ~(P → R) → Q CD 
+(3) |~(P → R) As 
+(4) | : Q ID 
+(5) ||~ Q As 
+(6) || :  DD 
+(7) |||P & ~R 3, ~→O  
+(8) |||P 7,&O 
+(9) |||~ R 7,&O 
+(10) |||~ Q → R 1,8, →O 
+(11) |||R 5,10, →O 
+(12) |||  9,11, I 
+ 
+#114: 
+(1) (P & Q) → R Pr 
+(2)  : (P → R) ∨ (Q → R) ID 
+(3) |~[(P → R) ∨ (Q → R)] As 
+(4) | :  DD 
+(5) ||~ (P → R) 3, ~∨O 
+(6) ||~ (Q → R) 3, ~∨O 
+(7) ||P & ~R 5, ~→O 
+(8) ||Q & ~R 6, ~→O 
+(9) ||P 7,&O 
+(10) ||~ R 7,&O 
+(11) ||Q 7,&O 
+(12) ||P & Q 9,11,&I 
+(13) ||R 1,12, →O 
+(14) || 10,13, I 
+ #115: 
+(1) P ↔ ~Q Pr 
+(2)  : (P & ~Q) ∨ (Q & ~P) ID 
+(3) |~[(P & ~Q) ∨ (Q & ~P)] As 
+(4) | :  DD 
+(5) ||~ (P & ~Q) 3, ~∨O 
+(6) ||~ (Q & ~P) 3, ~∨O 
+(7) ||P → ~~Q 5, ~&O 
+(8) ||Q → ~~P 6, ~&O 
+(9) ||P → ~Q 1, ↔O 
+(10) ||~ Q → P 1, ↔O 
+(11) || : P ID 
+(12) |||∼P As 
+(13) ||| :  DD 
+(14) ||||~~ Q 7,10, →O 
+(15) ||||∼∼∼ P 12,DN 
+(16) ||||~ Q 7,15, →O 
+(17) ||||  14,16, I 
+(18) ||~~ Q 7,11, →O 
+(19) ||~ Q 9,11, →O 
+(20) || 18,19, I 
+ 
+#116: 
+(1) (P → ~Q) → R Pr 
+(2)  : ~(P & Q) → R CD 
+(3) |~(P & Q) As 
+(4) | : R DD 
+(5) ||P → ~Q 3, ~&O 
+(6) ||R 1,5, →O 
+ 
+#117: 
+(1) P ↔ (Q & ~P) Pr 
+(2)  : ~P & ~Q DD 
+(3) | : ~P ID 
+(4) || P As 
+(5) || :  DD 
+(6) |||P → (Q & ~P) 1, ↔O 
+(7) |||Q & ~P 4,6, →O 
+(8) |||~ P 7,&O 
+(9) |||  4,8, I 
+(10) | : ~Q ID 
+(11) || Q As 
+(12) || :  DD 
+(13) |||Q & ~P 3,11,&I 
+(14) |||(Q & ~P) → P 1, ↔O 
+(15) |||P 13,14, →O 
+(16) |||  3,15, I 
+(17) |~P & ~Q 3,10,&I 
+ 
+Chapter 5: Derivations in Sentential Logic  219  
+#118: 
+(1) P Pr 
+(2)  :  (P & Q) ∨ (P & ~Q) ID 
+(3) |~[(P & Q) ∨ (P & ~Q)] As 
+(4) | :  DD 
+(5) ||~ (P & Q) 3, ~∨O 
+(6) ||~ (P & ~Q) 3, ~∨O 
+(7) ||P → ~Q 5, ~&O 
+(8) ||P → ~~Q 6, ~&O 
+(9) ||~ Q 1,7, →O 
+(10) ||~~ Q 1,8, →O 
+(11) || 9,10, I 
+ 
+#119: 
+(1)  P ↔ ~P Pr 
+(2)   : Q ID 
+(3)  |~Q As 
+(4)  | :  DD 
+(5)  ||P → ~P 1, ↔O 
+(6)  ||~ P → P 1, ↔O 
+(7) || : P ID 
+(8)  |||~ P As 
+(9)  ||| :  DD 
+(10)  |||| P 6,8, →O 
+(11)  ||||  8,10, I 
+(12)  ||~ P 5,7, →O 
+(13)  || 7,12, I 
+ #120: 
+(1) (P ↔ Q) ↔ R Pr 
+(2)  : P ↔ (Q ↔ R) DD 
+(3) | : P → (Q ↔ R) CD 
+(4) ||P As 
+(5) || : Q ↔ R DD 
+(6) ||| : Q → R CD 
+(7) |||| Q As 
+(8) |||| : R DD 
+(9) ||||| : P → Q CD 
+(10) |||||| P As 
+(11) |||||| : Q DD 
+(12) ||||||| Q 7,R 
+(13) ||||| : Q → P CD 
+(14) |||||| Q As 
+(15) |||||| : P DD 
+(16) ||||||| P 4,R 
+(17) ||||| P ↔ Q 9,13, ↔I 
+(18) ||||| (P ↔ Q) → R 1, ↔O 
+(19) ||||| R 17,18, →O 
+(20) ||| : R → Q CD 
+(21) |||| R As 
+(22) |||| : Q DD 
+(23) ||||| R → (P ↔ Q) 1, ↔O 
+(24) ||||| P ↔ Q 21,23 →O 
+(25) ||||| P → Q 24, ↔O 
+(26) ||||| Q 4,25, →O 
+(27) |||Q ↔ R 6,20, ↔I 
+(28) | : (Q ↔ R) → P CD 
+(29) ||Q ↔ R As 
+(30) || : P ID 
+(31) |||~ P As 
+(32) ||| :  DD 
+(33) |||| : P → Q CD 
+(34) ||||| P As 
+(35) ||||| : Q ID 
+(36) ||||||~ Q As 
+(37) |||||| :  DD 
+(38) |||||||  31,34, I 
+(39) |||| : Q → P CD 
+(40) ||||| Q As 
+(41) ||||| : P DD 
+(42) |||||| Q → R 29, ↔O 
+(43) |||||| R 40,42, →O 
+(44) |||||| R → (P ↔ Q) 1, ↔O 
+(45) |||||| P ↔ Q 43,44, →O 
+(46) |||||| Q → P 45, ↔O 
+(47) |||||| P 40,46, →O 
+(48) |||| P ↔ Q 33,39, ↔I 
+(49) |||| (P ↔ Q) → R 1, ↔O 
+(50) |||| R 48,49, →O 
+(51) |||| R → Q 29, ↔O 
+(52) |||| Q 50,51, →O 
+(53) |||| P 39,52, →O 
+(54) ||||  31,53, I 
+(55) |P ↔ (Q ↔ R) 3,28, ↔I 
+220  Hardegree, Symbolic Logic  
+ 
+ANSWERS TO EXERCISES FOR CHAPTER 6  
+Note:  Only one translation is written down in each case; in most cases, there are 
+alternative translations that are equally correct.  Your translation is correct if and only if it is equivalent to the answer given below.  
+EXERCISE SET A  
+1. Fj 
+2. Jk 
+3. Sj & Sk  
+4. Tjk 
+5. Sjk 
+6. Ifjk 
+7. Ifkj 
+8. Tcj & Tck  
+9. Mjk 
+10. Mj & Mk  
+11. Mj &  Mk 
+12. (Mj & Mk) &  Mjk 
+13. Sj &  Sk 
+14. Sj  Sk 
+15. (Lj & Lk)   (Fj &  Fk) 
+16. (Fj &  Fk)  (Sj & Sk)  
+17. Mjk  Rjk 
+18. (Sj  Sk) &  (Sj & Sk)  
+19. Fjk  Rjk 
+20. Sjk &  Cjk  
+EXERCISE SET B  
+21. xPx 
+22. xPx  
+23. xPx  
+24. xPx 
+25. xPx 
+26. xPx 
+27. xPx 
+28. xPx 
+29. xPx 
+30. xCx  
+31. xPx 
+32. xPx  
+33. xPx  
+34. xPx 
+35. xPx 
+36. xPx 
+37. xPx 
+38. xPx 
+39. xPx 
+296 Hardegree, Symbolic Logic  
+40. xCx   
+EXERCISE SET C  
+41. x(Sx  Hx) 
+42. x(Sx & Hx)  
+43. x(Sx & Hx)  
+44. x(Sx &  Hx) 
+45. x(Sx  Hx) 
+46. x(Sx  Hx) 
+47. x(Sx &  Hx) 
+48. x(Sx &  Hx) 
+49. x(Sx  Hx) 
+50. x(Sx & Hx)  
+51. x(Sx  Hx) 
+52. x(Sx & Hx)  
+53. x(Sx & Hx)  
+54. x(Sx &  Hx) 
+55. x(Sx  Hx) 
+56. x(Sx  Hx) 
+57. x(Sx &  Hx) 
+58. x(Sx &  Hx) 
+59. x(Sx  Hx) 
+60. x(Sx & Hx)  
+ 
+EXERCISE SET D  
+61. x(Hx & Px)  
+62. x(Cx & Ax)  
+63. x(Ax  Wx) 
+64. x(Sx  Hx) 
+65. x(Ax &  Bx) 
+66. x(Px & Hx)  
+67. x(Vx  Wx) 
+68. x(Mx  Sx) 
+69. x(Mx & Sx)  
+70. x(Mx &  Sx) 
+ 
+Chapter 6: Translations in Monadic Predicate Logic  297 
+EXERCISE SET E 
+71. x([Cx & Sx]   Ax) 
+72. x([Ax & Sx]   Cx) 
+73. x(Sx  [Cx & Ax])  
+74. x(Sx  [Cx  Ax]) 
+75. x([Sx & Ax]   Cx) 
+76. x([Sx & Cx]   Ax) 
+77. x([Cx & Sx] & Ax)  
+78. x([Cx & Sx] &  Ax) 
+79. x([Cx & Sx]   Ax) 
+80. x([Ax & Sx]   Cx) 
+81. x([Ax & Sx] &  Cx) 
+82. x([Ax & Sx] & Cx)  
+83. x([Cx & Sx] & Ax)  
+84. x(Sx & [Cx   Ax]) 
+85. x(Sx & [Cx & Ax])  
+86. x([Ax & Px]   [Cx & Sx])  
+87. x([Ax & Px] & [Cx & Sx])  
+88. x([Ax & Px] &  [Cx & Sx ]) 
+89. x([Ax & Px])   [Cx & Sx])  
+90. x([Cx & Px]   Sx) 
+ 
+EXERCISE SET F  
+91. x(Mx & Ax)  
+92. x([Cx & Rx] & Ax)  
+93. x([Mx & Ax] &  Gx) 
+94. x(Px &  Dx) 
+95. x(Px &  Dx) 
+96. x([Dx & Sx] &  Px) 
+97. x(Dx &  [Px & Sx])  
+98. x([Px & Sx] & [Dx & Sx]) 
+99. x([Px & Sx] & [Dx & Ax])  
+100. x([Fx & Px] &  Wx) 
+ 
+EXERCISE SET G  
+101. x([Hx  Cx]  Fx) 
+102. x([Cx  Dx]  Ex) 
+103. x([Rx  Mx]  Dx) 
+104. x(Sx &  [Cx  Dx]) 
+105. x([Px & Ix] &  [Mx  Gx]) 
+106. x({[Cx  Dx] & Sx} &  Hx) 
+107. x([Ax & Sx] &  [Cx  Dx]) 
+108. x([Cx  Dx] & Sx)  
+109. x([(Cx  Dx) &  Vx] & Sx)  
+110. x([(Cx  Dx) & Rx]   Sx) 
+298 Hardegree, Symbolic Logic  
+EXERCISE SET H  
+111. xPx  xSx  
+112. xMx  xSx  
+113. xSx  xMx  
+114. xSx  x(Cx  Sx) 
+115. xSx  x(Cx & Sx)  
+116. x(Cx  Sx)  xSx 
+117. x(Fx  Sx) & x(Sx  Fx) 
+118. x(Sx  Cx)  x(Fx  Cx) 
+119. x(Bx  Fx)  x(Bx  Dx) 
+120. x(Sx &  Px)  x(Sx  Dx) 
+121. x(Sx & Cx)   x(Px & Hx)  
+122. x(Cx & Bx)   x(Cx  Sx) 
+123. x(Sx &  Px)  x(Sx &  Dx) 
+124. [xCx &  x(Cx  Sx)]  xSx 
+125. [xCx & x(Cx & Sx)]   xSx  
+126. x([Bx&Cx]  Mx)  x([Bx&Px] & Sx)  
+127. xFx  xHx 
+128. x(Px  Fx)  x(Sx & Hx)  
+129. x(Px  Fx)  x(Sx  Hx) 
+130. x(Px  Fx)  x(Sx &  Hx) 
+ 
+EXERCISE SET I  
+131. x(Fx  xHx)  
+132. x(Fx  Fs) 
+133. Fs  xFx  
+134. xPx  xHx 
+135. x(Px  xHx)  
+136. xFx  xHx  
+137. x(Fx  xHx)  
+138. x(Sx  [Dx  Rx]) 
+139. x{[Cx & Ex]   x(Px  Sx)} 
+140. x{[Cx & Ex]   [y(Py & Sy)   Dx]}  
+ 
+ANSWERS TO EXERCISES FOR CHAPTER 7 
+EXERCISE SET A  
+1. ∀xRxj 
+2. ∀xRjx 
+3. ∃xRxj 
+4. ∃xRjx 
+5. ∃x~Rxj 
+6. ∃x~Rjx 
+7. ~∃xRxj 
+8. ~∃xRjx 
+9. ~∀xRjx 
+10. ~∀xRxj 
+11. ∀x∀yRxy 
+12. ∀x∀yRyx 
+13. ∀x∃yRxy 
+14. ∀x∃yRyx 
+15. ∃x∀yRxy 
+16. ∃x∀yRyx 
+17. ∃x∃yRxy 
+18. ∃x∃yRyx 
+19. ∀x∃yCyx 
+20. ∃x∀yCxy 
+ 
+EXERCISE SET B 
+21. ~∃x∀yRxy 
+22. ~∃x∀yRyx 
+23. ∃x~∃yRxy 
+24. ∃x~∃yRyx 
+25. ~∀x∀yRxy 
+26. ~∀x∀yRyx 
+27. ~∀x∃yRxy 
+28. ~∀x∃yRyx 
+29. ~∃x~∃yRxy 
+30. ~∃x~∃yRyx 
+31. ~∃x~∀yRxy 
+32. ~∃x~∀yRyx 
+33. ~∃x~∃yRyx 
+34. ~∃x~∃yRxy 
+35. ~∃x~∃yRyx 
+36. ~∃x~∃yRxy 
+37. ∀x∃y~Rxy 
+38. ∀x∃y~Ryx 
+39. ∀x∃y~Cyx 
+40. ~∃x~∃yCyx 
+Chapter 7: Translations in Polyadic Predicate Logic  339  
+EXERCISE SET C  
+41. ∀x(Fx → ∃yRxy) 
+42. ∀x(Fx → ∃yRyx) 
+43. ∀x∃y(Fy & Rxy) 
+44. ∀x∃y(Fy & Ryx) 
+45. ∃x(Fx & ∀yRxy) 
+46. ∃x(Fx & ∀yRyx) 
+47. ∃x∀y(Fy → Rxy) 
+48. ∃x∀y(Fy → Ryx) 
+49. ~∃x(Fx & ∀yRyx) 
+50. ~∃x∀y(Fy → Rxy) 
+ 
+EXERCISE SET D 
+51. ∀x(Px → ∃y(Sy & Ryx)) 
+52. ∀x(Px → ∃y(Sy & Rxy)) 
+53. ∀x(Sx → ∃y(Py & Ryx)) 
+54. ∀x(Sx → ∃y(Py & Rxy)) 
+55. ∀x(Px → ∃y(Sy & ~Ryx)) 
+56. ∀x(Sx → ∃y(Py & ~Ryx)) 
+57. ∀x(Px → ∃y(Sy & ~Rxy)) 
+58. ∀x(Sx → ∃y(Py & ~Rxy)) 
+59. ∃x(Sx & ∀y(Py → Rxy)) 
+60. ∃x(Px & ∀y(Sy → Rxy)) 
+61. ∃x(Sx & ∀y(Py → Ryx)) 
+62. ∃x(Px & ∀y(Sy → Ryx)) 
+63. ∃x(Sx & ~∃y(Py & Rxy)) 
+64. ∃x(Px & ~∃y(Sy & Rxy)) 
+65. ∃x(Sx & ~∃y(Py & Ryx)) 
+66. ∃x(Px & ~∃y(Sy & Ryx)) 
+67. ~∃x(Sx & ∀y(Py → Rxy)) 
+68. ~∃x(Px & ∀y(Sy → Rxy)) 
+69. ~∃x(Sx & ∀y(Py → Ryx)) 
+70. ~∃x(Sx & ~∃y(Py & Rxy)) 
+71. ~∃x(Px & ~∃y(Sy & Rxy)) 
+72. ~∃x(Sx & ~∃y(Py & Ryx)) 
+73. ~∃x(Px & ~∃y(Sy & Ryx)) 
+74. ∃x(Sx & ~∀y(Py → Rxy)) 
+75. ∃x(Px & ~∀y(Sy → Rxy)) 
+76. ∃x(Px & ~∀y(Sy → Ryx)) 
+77. ∃x(Sx & ~∀y(Py → Ryx)) 
+78. ~∃x(Sx & ∀y(Py → Ryx)) 
+79. ~∃x(Px & ∀y(Sy → Ryx)) 
+80. ~∃x(Px & ~∀y(Sy → Ryx)) 
+340  Hardegree, Symbolic Logic  
+EXERCISE SET E  
+81. ∀x(Rxx → ∀yRxy) 
+82. ∀x(Rxx → ∀yRyx) 
+83. ∀x( ∀yRxy → ∀yRyx) 
+84. ∀x[ ∀y(Fy → Rxy) → ∀y(Fy → Ryx)] 
+85. ∀x[ ∀y(Jy → Sxy) → Sxj] 
+86. ∀x[Txk → ∀y(Sy → Txy)] 
+87. ∀x[ ∀y(By → Txy) → ∀y(Jy → Txy)] 
+88. ∀x(Rxk → Rjx) 
+89. ~∃x(Rxk & Rjx); 
+90. ∀x(Kxj → ∃y(Kyk & Rxy)) 
+91. ∃x~∃y(Ryj & Rxy) 
+92. ∃x(Gx & ∀y(Kyx → Fyx)) 
+93. ∃x(Px & ∀y([Sy & Kyx] → Ryx)) 
+94. ∃x(Sx & ∀y([Py & Ryy] → Ryx)) 
+95. ∃x[Px & ∀y({Sy & ∀z([Cz & Oxz] → Eyz)} → Rxy)] 
+96. ∀x{[Sx & Kxj] → ∀y([Py & Ryj] → Rxy)} 
+97. ∃x(Px & ~∃y([Sy & ~Ryy] & Rxy)) 
+98. ∃x(Px & ~∃y([Sy & ~∀z(Pz → Ryz)] & Rxy)) 
+99. ~∃x{Px & ~∀y([Sy & ∀z([Cz & Txz) → Eyz)] → Rxy)} 
+100. ∀x{Sx → ∀y([Py & ∀z(Sz → Ryz)] → Rxy)} 
+101. ~∃x( ~Mx & ∀yHxy) 
+102. ~∃x( ~Sx & ∀yLxy) 
+103. ~∃x([Mx & ∀yRyx] & ~Sx) 
+104. ~∃x( ~Mx & ∀y(Sy → Ixy)) 
+105. ~∃x( ~Mx & ~∃y( ~Py & Rxy)) 
+ 
+EXERCISE SET F 
+106. ∀x([Bx & Ljx] → Rjxk) 
+107. ∀x([Bx & Rkxj] → Ljx) 
+108. ∀x([Mx & Rjx] → Bjxk) 
+109. ∀x([Bx & Lkxj] → Skxc) 
+110. ∀x{Px → ∃y(Sy & ∀z([Bz & Rxzy] → Lyz))} 
+ 
+Chapter 7: Translations in Polyadic Predicate Logic  341  
+EXERCISE SET G  
+111. ∀x~Rjx 
+112. ∀x~Rxj 
+113. ∃x∀y~Rxy 
+114. ~∃x∀y~Ryx 
+115. ~∃x∀y~Rxy 
+116. ∀x(Px → ~Rjx) 
+117. ∀x(Px → ~Rxj) 
+118. ∃x∀y(Py → ~Ryx) 
+119. ~∃x∀y(Py → ~Rxy) 
+120. ∃x(Sx & ∀y(Py → ~Rxy)) 
+121. ~∃x(Sx & ∀y(Py → ~Rxy)) 
+122. ~∃x(Sx & ∀y(Py → ~Ryx)) 
+123. ∀x(Px → ~∃y(Sy & Ryx)) 
+124. ∀x(Px → ~∃y(Sy & Rxy)) 
+125. ∀x∃y(Kxy & ∀z(Pz → ~Ryz)) 
+126. ∀x(Sx → ∃y([Sy & Kxy] & ∀z(Pz → ~Ryz)) 
+127. ∀x(Kxk → ~∃y(Kyj & Ryx)) 
+128. ∃x∀y(Ryj → ~Rxy) 
+129. ∀x([Px & Rxj] → ~∃y([Sy & Kyj] & Ryx)) 
+130. ∃x(Px & ∀y([Sy & ~Ryx] → ~Rxy)) 
+131. ∃x(Px & ∀y([Sy & ~∀z(Pz → Ryz] → ~Rxy)) 
+132. ∀x([Sx & Cjx] → ∀y(Py → Cyx)) 
+133. ∀x([Sx & ~Ckx] → ~∃y(Py & Cyx)) 
+134. ∀x([Sx & Ex] → ∀y(Py → Nyx)) 
+135. ∀x∀y([(Cx & Ry) & Exy] → ∀z([Pz & Izy] → Nzx)) 
+136. ∀x∀y([(Mx&Dy) & Bxy] → ∀z(Wz → Szx)) 
+137. ∀x∀y([(Tx & Ay) & Cyx] → Eyx) 
+138. ∀x(Fxo → Fxm) 
+139. ∀x∀y([Eyo & Bxy] → Exm) 
+140. ∀x∀y([Sy & Lxy] → Sx] 
+
+ 

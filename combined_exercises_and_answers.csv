@@ -1,0 +1,418 @@
+Exercise,Answer
+"In any valid argument, the premises are all true .",False
+"In any valid argument, the conclusion is true.",False
+"In any valid argument, if the premises are all t rue, then the conclusion is also",True
+"In any factually correct argument, the premises are all true.",True
+"In any factually correct argument, the conclusio n is true.",False
+"In any sound argument, the premises are all true .",True
+In a sound argument the conclusion is true.,True
+Every sound argument is factually correct.,True
+Every sound argument is valid.,True
+Every factually correct argument is valid.,False
+Every factually correct argument is sound.,False
+Every valid argument is factually correct.,False
+Every valid argument is sound.,False
+Every valid argument has a true conclusion.,False
+Every factually correct argument has a true con clusion.,False
+Every sound argument has a true conclusion.,True
+"If an argument is valid and has a false conclus ion, then it must have at least",True
+"If an argument is valid and has a true conclusi on, then it must have all true",False
+If an argument is valid and has at least one fa lse premise then its conclusion,False
+"If an argument is valid and has all true premis es, then its conclusion must be",True
+all dogs are reptiles,factually correct? NO
+some dogs are cats,factually correct? NO
+all dogs are Republicans,factually correct? NO
+all dogs are Republicans,factually correct? NO
+some cats are pets,factually correct? YES
+all cats are mammals,factually correct? YES
+all lizards are reptiles,factually correct? YES
+all dogs are reptiles,factually correct? NO
+no cats are dogs,factually correct? YES
+no cats are dogs,factually correct? YES
+only dogs are pets,factually correct? NO
+only bullfighters are macho,factually correct? NO
+only bullfighters are macho,factually correct? NO
+food containing DDT is,factually correct? can't tell
+the only dogs I like are collies,factually correct? can't tell
+the only people still working,factually correct? can't tell
+all dogs are reptiles,all dogs are reptiles valid; admits no counterex ample
+some dogs are cats,all dogs are mammals all dogs are mammals
+all dogs are Republicans,all ducks waddle valid; admits no counterexample
+all dogs are Republicans,all cows are eligible voters valid; admits no co unterexample
+some cats are pets,all birds can fly all birds lay eggs
+all cats are mammals,all cats are vertebrates all cats are vertebrate s
+all lizards are reptiles,all dogs are Republicans all dogs are mammals
+all dogs are reptiles,all turtles are reptiles all turtles are reptile s
+no cats are dogs,no dogs are cats no dogs are cats
+no cats are dogs,no mammals are cold-blooded no mammals are cold -blooded
+only dogs are pets,No answer available
+only bullfighters are macho,No answer available
+only bullfighters are macho,No answer available
+food containing DDT is,No answer available
+the only dogs I like are collies,No answer available
+the only people still working,No answer available
+all dogs are reptiles,T
+all dogs are mammals,F
+all ducks waddle,T
+all cows are eligible voters,T
+all birds can fly,F
+all cats are vertebrates,T
+all dogs are Republicans,T
+all turtles are reptiles,F
+no dogs are cats,T
+no mammals are cold-blooded,T
+all dogs are reptiles,T
+all dogs are mammals,F
+all ducks waddle,F
+all cows are eligible voters,T
+all birds can fly,F
+all cats are vertebrates,F
+all dogs are Republicans,T
+all turtles are reptiles,T
+no dogs are cats,F
+no mammals are cold-blooded,T
+~A ∨ B,( P & Q ) ∨ ( P & ~ Q )
+~B ∨ X,~ ( P & ~ P )
+~Y ∨ C,~ ( P ∨ ~ P )
+~Z ∨ X,~ ( P & Q ) ∨ ( ~ P ∨ ~ Q )
+(A & X) ∨ (B & Y),~ ( P ∨ Q ) ∨ ( ~ P & ~ Q )
+(B & C) ∨ (Y & Z),( P & Q ) ∨ ( ~ P & ~ Q )
+~(C & Y) ∨ (A & Z),~ ( P ∨ ( P & Q ) )
+~(A & B) ∨ (X & Y),~ ( P ∨ ( P & Q ) ) ∨ P
+~(X & Z) ∨ (B & C),( P & ( Q ∨ P ) ) & ~ P
+~(X & ~Y) ∨ (B & ~C),( ( P → Q ) → P ) → P
+(A ∨ X) & (Y ∨ B),~ ( ~ ( P → Q ) → P )
+(B ∨ C) & (Y ∨ Z),( P → Q ) ↔ ~ P
+(X ∨ Y) & (X ∨ Z),P → ( Q → ( P & Q ) )
+~(A ∨ Y) & (B ∨ X),( P ∨ Q ) ↔ ( ~ P → Q )
+~(X ∨ Z) & ( ~X ∨ Z),~ ( P ∨ ( P → Q ) )
+~(A ∨ C) ∨ ~(X & ~Y),No answer available
+~(B ∨ Z) & ~(X ∨ ~Y),( P → Q ) ↔ ( ~ Q → ~ P )
+~[(A ∨ ~C) ∨ (C ∨ ~A)],( P ∨ Q ) → ( P & Q )
+~[(B & C) & ~(C &B)],( P & Q ) ∨ ( P & R )
+~[(A & B) ∨ ~(B & A)],[ P → ( Q & R ) ] → [ P → R ]
+[A ∨ (B ∨ C)] & ~[(A ∨ B) ∨ C],[ P → ( Q ∨ R ) ] → [ P → Q ]
+[X ∨ (Y & Z)] ∨ ~[(X ∨ Y) & (X ∨ Z)],[ ( P ∨ Q ) → R ] → [ P → R ]
+[A & (B ∨ C)] & ~[(A & B) ∨ (A & C)],[ ( P & Q ) → R ] → [ P → R ]
+~{[( ~A & B) & ( ~X & Z)] & ~[(A & ~B) ∨ ~(~Y & ~Z)]},[ ( P & Q ) → R ] → [ ( Q & ~ R ) → ~ P ]
+~{~[(B & ~C) ∨ (Y & ~Z)] & [( ~B ∨ X) ∨ (B ∨ ~Y)]},[ P ↔ ( Q ↔ R ) ] ↔ [ ( P ↔ Q ) ↔ R ]
+A → B,contingent
+A → X,tautology
+B → Y,contradiction
+Y → Z,contingent
+(A → B) → Z,contingent
+(X → Y) → Z,contingent
+(A → B) → C,contingent
+(X → Y) → C,tautology
+A → (B → Z),contradiction
+X → (Y → Z),tautology
+[(A → B) → C] → Z,contradiction
+[(A → X) → Y] → Z,contingent
+[A → (X → Y)] → C,tautology
+[A → (B → Y)] → X,tautology
+[(X → Z) → C] → Y,contradiction
+[(Y → B) → Y] → Y,contingent
+[(A → Y) → B] → Z,tautology
+[(A & X) → C] → [(X → C) → X],contingent
+[(A & X) → C] → [(A → X) → C],contingent
+[(A & X) → Y] → [(X → A) → (A → Y)],tautology
+[(A & X) ∨ ( ~A & ~X)] → [(A → X) & (X → A)],contingent
+{[A → (B → C)] → [(A & B) → C]} → [(Y → B) → (C → Z)],tautology
+{[(X → Y) → Z] → [Z → (X → Y)]} → [(X → Z) → Y],contingent
+[(A & X) → Y] → [(A → X) & (A → Y)],tautology
+[A → (X & Y)] → [(A → X) ∨ (A → Y)],tautology
+A → B,A:    B:
+A → X,A:    B:
+B → Y,A:    B:
+Y → Z,A:    B:
+(A → B) → Z,A:    B:
+(X → Y) → Z,A:    B:
+(A → B) → C,A:    B:
+(X → Y) → C,A:    B:
+A → (B → Z),A:    B:
+X → (Y → Z),A:   B:
+[(A → B) → C] → Z,A:   B:
+[(A → X) → Y] → Z,A:   B:
+[A → (X → Y)] → C,A:   B:
+[A → (B → Y)] → X,A:   B:
+[(X → Z) → C] → Y,A:   B:
+[(Y → B) → Y] → Y,A:   B:
+[(A → Y) → B] → Z,A:   B:
+[(A & X) → C] → [(X → C) → X],A:   B:
+[(A & X) → C] → [(A → X) → C],A:    B:
+[(A & X) → Y] → [(X → A) → (A → Y)],A:    B:
+[(A & X) ∨ ( ~A & ~X)] → [(A → X) & (X → A)],A:    B:
+{[A → (B → C)] → [(A & B) → C]} → [(Y → B) → (C → Z)],A:    B:
+{[(X → Y) → Z] → [Z → (X → Y)]} → [(X → Z) → Y],A:    B:
+[(A & X) → Y] → [(A → X) & (A → Y)],A:    B:
+[A → (X & Y)] → [(A → X) ∨ (A → Y)],No answer available
+(P & Q) ∨ (P & ~Q),P → Q ; P   /  Q
+~(P & ~P),P → Q ; Q   /  P
+~(P ∨ ~P),P → Q ; ~ Q  /  ~ P
+~(P&Q) ∨(~P∨~Q),P → Q ; ~ P  /  ~ Q
+~( P ∨ Q) ∨ ( ~P & ~Q),P ∨ Q ; ~ P  /  Q
+(P & Q) ∨ ( ~P & ~Q),P ∨ Q ; P   /  ~ Q
+~(P ∨ (P & Q)),~ ( P & Q ) ; P   /  ~ Q
+~(P ∨ (P & Q)) ∨ P,~ ( P & Q ) ; ~ P  /  Q
+(P & (Q ∨ P)) & ~P,P ↔ Q ; ~ P  /  ~ Q
+((P → Q) → P) → P,P ↔ Q ; Q   /  P
+~(~(P → Q) → P),P ∨ Q ; P  → Q  /  Q
+(P → Q) ↔ ~P,P ∨ Q ; P  → Q  /  P & Q
+P → (Q → (P & Q)),P → Q ; P  → ~ Q  /  ~ P
+(P ∨ Q) ↔ ( ~P → Q),P → Q ; ~ P → Q  /  Q
+~(P ∨ (P → Q)),P ∨ Q ; ~ P → ~ Q  /  P & Q
+(P → Q) ↔ (Q → P),P → Q ; ~ P → ~ Q  /  P ↔ Q
+(P → Q) ↔ ( ~Q → ~P),~ P → ~ Q ; ~ Q → ~ P  /  P ↔ Q
+(P ∨ Q) → (P & Q),~ P → ~ Q ; ~ Q → ~ P  /  P & Q
+(P & Q) ∨ (P & R),P ∨ ~ Q ; P  ∨ Q  /  P
+[P → (Q & R)] → [P → R],P → Q ; P  ∨ Q  /  P ↔ Q
+[P → (Q ∨ R)] → [P → Q],~ ( P → Q ) ; P  → ~ P  /  ~ P & ~ Q
+[(P ∨ Q) → R] → [P → R],~ ( P & Q ) ; ~ Q → P  /  P
+[(P & Q) → R] → [P → R],P → Q ; Q  → R  /  P → R
+[(P & Q) → R] → [(Q & ~R) → ~P],P → Q ; Q  → R ; ~ P → R  /  R
+[P ↔ (Q ↔ R)] ↔ [(P ↔ Q) ↔ R],P → Q ; Q  → R  /  P & R
+(P & Q) ∨ (P & ~Q),R & J
+~(P & ~P),~R & W
+~(P ∨ ~P),J & K
+~(P&Q) ∨(~P∨~Q),D & ~H
+~( P ∨ Q) ∨ ( ~P & ~Q),T & ~Q
+(P & Q) ∨ ( ~P & ~Q),R & (J & K)
+~(P ∨ (P & Q)),(J & K) & (H & N)
+~(P ∨ (P & Q)) ∨ P,K → A
+(P & (Q ∨ P)) & ~P,G → T
+((P → Q) → P) → P,C ∨ S
+~(~(P → Q) → P),F ∨ D
+(P → Q) ↔ ~P,~(J & K)
+P → (Q → (P & Q)),(J ∨ K) & ~(J & K)
+(P ∨ Q) ↔ ( ~P → Q),R ∨ (S & C)
+~(P ∨ (P → Q)),(R ∨ O) & ~S
+(P → Q) ↔ (Q → P),J → S
+(P → Q) ↔ ( ~Q → ~P),~J → ~S
+(P ∨ Q) → (P & Q),C → ~F
+(P & Q) ∨ (P & R),(L & H) → G
+[P → (Q & R)] → [P → R],~(L & H) → ~G
+[P → (Q ∨ R)] → [P → Q],~J & ~K   [or: ~(J ∨ K)]
+[(P ∨ Q) → R] → [P → R],L & ( ~T & ~B)   [or: L & ~(T ∨ B)]
+[(P & Q) → R] → [P → R],~P → ~G
+[(P & Q) → R] → [(Q & ~R) → ~P],~~J → ~K  [J → ~K]
+[P ↔ (Q ↔ R)] ↔ [(P ↔ Q) ↔ R],~(W & R) → ~S
+"For each formula, say whether it is a",No answer available
+A: ~(P&Q),No answer available
+A: P→Q,No answer available
+A: ~(P&Q),No answer available
+A: P→Q,No answer available
+A: ~(P ∨Q),No answer available
+A: P→Q,No answer available
+A: ~(P ∨Q),No answer available
+A: P→Q,No answer available
+A: ~(P →Q),No answer available
+A: ~P,No answer available
+A: ~(P →Q),No answer available
+A: ~P,No answer available
+A: ~(P ↔Q),No answer available
+A: ~(P ↔Q),"24, I"
+A: ~(P ↔Q),No answer available
+A: (P&Q) → R,No answer available
+A: ~(P ↔Q),No answer available
+A: (P ∨Q) → R,No answer available
+A: P↔Q,No answer available
+A: (P&Q) →R,No answer available
+A: P↔Q,No answer available
+A: P → (Q&R),No answer available
+A: P→Q,No answer available
+A: P → (Q ∨R),No answer available
+P→Q; P / Q,Fj
+P→Q; Q / P,Jk
+P→Q; ~Q / ~P,Sj & Sk
+P→Q; ~P / ~Q,Tjk
+P∨Q; ~P / Q,Sjk
+P∨Q; P / ~Q,Ifjk
+~(P&Q); P / ~Q,Ifkj
+~(P&Q); ~P / Q,Tcj & Tck
+P↔Q; ~P / ~Q,Mjk
+P↔Q; Q / P,Mj & Mk
+P∨Q; P →Q / Q,Mj &  Mk
+P∨Q; P →Q / P&Q,(Mj & Mk) &  Mjk
+P→Q; P →~Q / ~P,Sj &  Sk
+P→Q; ~P→Q / Q,Sj  Sk
+P∨Q; ~P→~Q / P&Q,(Lj & Lk)   (Fj &  Fk)
+P→Q; ~P→~Q / P↔Q,(Fj &  Fk)  (Sj & Sk)
+~P→~Q; ~Q→~P / P↔Q,Mjk  Rjk
+~P→~Q; ~Q→~P / P&Q,(Sj  Sk) &  (Sj & Sk)
+P∨~Q; P ∨Q / P,Fjk  Rjk
+P→Q; P ∨Q / P↔Q,Sjk &  Cjk
+~(P →Q); P →~P / ~P& ~Q,No answer available
+~(P&Q); ~Q→P / P,No answer available
+P→Q; Q →R / P→R,No answer available
+P→Q; Q →R; ~P→R / R,No answer available
+P→Q; Q →R / P&R,No answer available
+P→Q; Q →R; R →P / P↔R,No answer available
+P→Q; Q →R / R,No answer available
+P→R; Q →R / (P ∨Q) →R,No answer available
+P→Q; P →R / Q&R,No answer available
+P∨Q; P →R; Q →R / R,No answer available
+P→Q; Q →R; R →~P / ~P,No answer available
+P→(Q ∨R); Q&R / ~P,No answer available
+P→(Q&R); Q →~R / ~P,No answer available
+P&(Q ∨R); P →~Q / R,No answer available
+P→(Q →R); P& ~R / ~Q,No answer available
+~P∨Q; R →P; ~(Q&R) / ~R,No answer available
+P→Q; P / Q,No answer available
+P→Q; Q / P,No answer available
+P→Q; ~Q / ~P,No answer available
+P→Q; ~P / ~Q,No answer available
+P∨Q; ~P / Q,No answer available
+P∨Q; P / ~Q,No answer available
+~(P&Q); P / ~Q,No answer available
+~(P&Q); ~P / Q,No answer available
+P↔Q; ~P / ~Q,No answer available
+P↔Q; Q / P,No answer available
+P∨Q; P →Q / Q,No answer available
+P∨Q; P →Q / P&Q,No answer available
+P→Q; P →~Q / ~P,No answer available
+P→Q; ~P→Q / Q,No answer available
+P∨Q; ~P→~Q / P&Q,No answer available
+P→Q; ~P→~Q / P↔Q,No answer available
+~P→~Q; ~Q→~P / P↔Q,No answer available
+~P→~Q; ~Q→~P / P&Q,No answer available
+P∨~Q; P ∨Q / P,No answer available
+P→Q; P ∨Q / P↔Q,No answer available
+~(P →Q); P →~P / ~P& ~Q,No answer available
+~(P&Q); ~Q→P / P,No answer available
+P→Q; Q →R / P→R,No answer available
+P→Q; Q →R; ~P→R / R,No answer available
+P→Q; Q →R / P&R,No answer available
+P→Q; Q →R; R →P / P↔R,No answer available
+P→Q; Q →R / R,No answer available
+P→R; Q →R / (P ∨Q) →R,No answer available
+P→Q; P →R / Q&R,No answer available
+P∨Q; P →R; Q →R / R,No answer available
+P→Q; Q →R; R →~P / ~P,No answer available
+P→(Q ∨R); Q&R / ~P,No answer available
+P→(Q&R); Q →~R / ~P,No answer available
+P&(Q ∨R); P →~Q / R,No answer available
+P→(Q →R); P& ~R / ~Q,No answer available
+~P∨Q; R →P; ~(Q&R) / ~R,No answer available
+"Although it is RAINING, I plan to go JOGGING thi s afternoon.",No answer available
+"It is not RAINING, but it is still too WET to pl ay.",No answer available
+JAY and KAY are Sophomores.,No answer available
+"It is DINNER time, but I am not HUNGRY.",No answer available
+"Although I am TIRED, I am not QUITTING.",No answer available
+"Jay and Kay are roommates, but they hate one ano ther.",No answer available
+"Jay and Kay are Republicans, but they both hate Nixon.",No answer available
+"KEEP trying, and the answer will APPEAR.",No answer available
+"GIVE him an inch, and he will TAKE a mile.",No answer available
+Either I am CRAZY or I just SAW a flying saucer .,No answer available
+Either Jones is a FOOL or he is DISHONEST.,No answer available
+JAY and KAY won't both be present at graduation .,No answer available
+"JAY will win, or KAY will win, but not both.",No answer available
+"Either it is RAINING, or it is SUNNY and COLD.",No answer available
+"It is RAINING or OVERCAST, but in any case it i s not SUNNY.",No answer available
+"If JONES is honest, then so is SMITH.",No answer available
+"If JONES isn't a crook, then neither is SMITH.",No answer available
+"Provided that I CONCENTRATE, I will not FAIL.",No answer available
+"I will GRADUATE, provided I pass both LOGIC and  HISTORY.",No answer available
+I will not GRADUATE if I don't pass both LOGIC and HISTORY.,No answer available
+Neither JAY nor KAY is able to attend the meeti ng.,No answer available
+"Although I have been here a LONG time, I am nei ther TIRED nor BORED.",No answer available
+I will GRADUATE this semester only if I PASS in tro logic.,No answer available
+KAY will attend the party only if JAY does not.,No answer available
+I will SUCCEED only if I WORK hard and take RIS KS.,No answer available
+"I will go to the BEACH this weekend, unless I a m SICK.",No answer available
+"Unless I GOOF off, I will not FAIL intro logic.",No answer available
+I won't GRADUATE unless I pass LOGIC and HISTOR Y.,No answer available
+"In order to ACE intro logic, it is sufficient t o get a HUNDRED on every",No answer available
+"In order to PASS, it is necessary to average at  least FIFTY.",No answer available
+"In order to become a PHYSICIAN, it is necessary  to RECEIVE an M.D. and",No answer available
+"In order to PASS, it is both necessary and suff icient to average at least",No answer available
+"Getting a HUNDRED on every exam is sufficient, but not necessary, for",No answer available
+"TAKING all the exams is necessary, but not suff icient, for ACING intro",No answer available
+"In order to get into MEDICAL school, it is nece ssary but not sufficient to",No answer available
+In order to be a BACHELOR it is both necessary and sufficient to be,No answer available
+"In order to be ARRESTED, it is sufficient but n ot necessary to COMMIT a",No answer available
+"If it is RAINING, I will play BASKETBALL; other wise, I will go JOGGING.",No answer available
+"If both JAY and KAY are home this weekend, we w ill go to the BEACH;",No answer available
+"JONES will win the championship unless he gets INJURED, in which case",No answer available
+Neither JAY nor KAY is able to attend the meeti ng.,No answer available
+"Although I have been here a LONG time, I am nei ther TIRED nor BORED.",No answer available
+I will GRADUATE this semester only if I PASS in tro logic.,No answer available
+KAY will attend the party only if JAY does not.,No answer available
+I will SUCCEED only if I WORK hard and take RIS KS.,No answer available
+"I will go to the BEACH this weekend, unless I a m SICK.",No answer available
+"Unless I GOOF off, I will not FAIL intro logic.",No answer available
+I won't GRADUATE unless I pass LOGIC and HISTOR Y.,No answer available
+"In order to ACE intro logic, it is sufficient t o get a HUNDRED on every",No answer available
+"In order to PASS, it is necessary to average at  least FIFTY.",No answer available
+"In order to become a PHYSICIAN, it is necessary  to RECEIVE an M.D. and",No answer available
+"In order to PASS, it is both necessary and suff icient to average at least",No answer available
+"Getting a HUNDRED on every exam is sufficient, but not necessary, for",No answer available
+"TAKING all the exams is necessary, but not suff icient, for ACING intro",No answer available
+"In order to get into MEDICAL school, it is nece ssary but not sufficient to",No answer available
+In order to be a BACHELOR it is both necessary and sufficient to be,No answer available
+"In order to be ARRESTED, it is sufficient but n ot necessary to COMMIT a",No answer available
+"If it is RAINING, I will play BASKETBALL; other wise, I will go JOGGING.",No answer available
+"If both JAY and KAY are home this weekend, we w ill go to the BEACH;",No answer available
+"JONES will win the championship unless he gets INJURED, in which case",No answer available
+"We will have DINNER and attend the CONCERT, pro vided that JAY and",No answer available
+"If neither JAY nor KAY can make it, we should e ither POSTPONE or",No answer available
+"Both Jay and Kay will go to the beach this week end, provided that neither of",No answer available
+"I'm damned if I do, and I'm damned if I don't.",No answer available
+"If I STUDY too hard I will not ENJOY college, b ut at the same time I will not",No answer available
+"If you NEED a thing, you will have THROWN it aw ay, and if you THROW a",No answer available
+"If you WORK hard only if you are THREATENED, th en you will not",No answer available
+"If I do not STUDY, then I will not PASS unless the prof ACCEPTS bribes.",No answer available
+"Provided that the prof doesn't HATE me, I will PASS if I STUDY.",No answer available
+"Unless logic is very DIFFICULT, I will PASS pro vided I CONCENTRATE.",No answer available
+"Unless logic is EASY, I will PASS only if I STU DY.",No answer available
+"Provided that you are INTELLIGENT, you will FAI L only if you GOOF off.",No answer available
+"If you do not PAY, Jones will KILL you unless y ou ESCAPE.",No answer available
+"If he CATCHES you, Jones will KILL you unless y ou PAY.",No answer available
+"Provided that he has made a BET, Jones is HAPPY  if and only if his horse",No answer available
+"If neither JAY nor KAY comes home this weekend,  we shall not stay HOME",No answer available
+"If you MAKE an appointment and do not KEEP it, then I shall be ANGRY",No answer available
+"If I am not FEELING well this weekend, I will n ot GO out unless it is",No answer available
+"If JAY will go only if KAY goes, then we will C ANCEL the trip unless KAY",No answer available
+"We will have DINNER and attend the CONCERT, pro vided that JAY and",No answer available
+"If neither JAY nor KAY can make it, we should e ither POSTPONE or",No answer available
+"Both Jay and Kay will go to the beach this week end, provided that neither of",No answer available
+"I'm damned if I do, and I'm damned if I don't.",No answer available
+"If I STUDY too hard I will not ENJOY college, b ut at the same time I will not",No answer available
+"If you NEED a thing, you will have THROWN it aw ay, and if you THROW a",No answer available
+"If you WORK hard only if you are THREATENED, th en you will not",No answer available
+"If I do not STUDY, then I will not PASS unless the prof ACCEPTS bribes.",No answer available
+"Provided that the prof doesn't HATE me, I will PASS if I STUDY.",No answer available
+"Unless logic is very DIFFICULT, I will PASS pro vided I CONCENTRATE.",No answer available
+"Unless logic is EASY, I will PASS only if I STU DY.",No answer available
+"Provided that you are INTELLIGENT, you will FAI L only if you GOOF off.",No answer available
+"If you do not PAY, Jones will KILL you unless y ou ESCAPE.",No answer available
+"If he CATCHES you, Jones will KILL you unless y ou PAY.",No answer available
+"Provided that he has made a BET, Jones is HAPPY  if and only if his horse",No answer available
+"If neither JAY nor KAY comes home this weekend,  we shall not stay HOME",No answer available
+"If you MAKE an appointment and do not KEEP it, then I shall be ANGRY",No answer available
+"If I am not FEELING well this weekend, I will n ot GO out unless it is",No answer available
+"If JAY will go only if KAY goes, then we will C ANCEL the trip unless KAY",No answer available
+"If KAY will come to the party only if JAY does not come, then provided we",No answer available
+"If KAY will go only if JAY does not go, then ei ther we will CANCEL the trip",No answer available
+"If JAY will go only if KAY goes, then we will C ANCEL the trip unless KAY",No answer available
+"If you CONCENTRATE only if you are INSPIRED, th en you will not",No answer available
+"If you are HAPPY only if you are DRUNK, then un less you are DRUNK you",No answer available
+"In order to be ADMITTED to law school, it is ne cessary to have GOOD",No answer available
+"I am HAPPY only if my assistant is COMPETENT, b ut if my assistant is",No answer available
+"If you do not CONCENTRATE well unless you are A LERT, then you will",No answer available
+"If you do not CONCENTRATE well unless you are A LERT, then provided",No answer available
+"If you CONCENTRATE well only if you are ALERT, then provided that you",No answer available
+"If you CONCENTRATE only if you are THREATENED, then you will not",No answer available
+"If neither JAY nor KAY is home this weekend, we  will go to the BEACH;",No answer available
+"If KAY will come to the party only if JAY does not come, then provided we",No answer available
+"If KAY will go only if JAY does not go, then ei ther we will CANCEL the trip",No answer available
+"If JAY will go only if KAY goes, then we will C ANCEL the trip unless KAY",No answer available
+"If you CONCENTRATE only if you are INSPIRED, th en you will not",No answer available
+"If you are HAPPY only if you are DRUNK, then un less you are DRUNK you",No answer available
+"In order to be ADMITTED to law school, it is ne cessary to have GOOD",No answer available
+"I am HAPPY only if my assistant is COMPETENT, b ut if my assistant is",No answer available
+"If you do not CONCENTRATE well unless you are A LERT, then you will",No answer available
+"If you do not CONCENTRATE well unless you are A LERT, then provided",No answer available
+"If you CONCENTRATE well only if you are ALERT, then provided that you",No answer available
+"If you CONCENTRATE only if you are THREATENED, then you will not",No answer available
+"If neither JAY nor KAY is home this weekend, we  will go to the BEACH;",No answer available
+(1) P ; P → Q ; Q → R ; R → S  / S,No answer available

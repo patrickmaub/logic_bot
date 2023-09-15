@@ -1,0 +1,8 @@
+Question,Answer,Chapter,Problem Number
+"1. In any valid argument, the premises are all true .",1. False 11. False,1,1
+1. ~A ∨ B,1. T 14. F,2,1
+"2.  For each formula, say whether it is a",1. contingent,3,2
+"1. Although it is RAINING, I plan to go JOGGING thi s afternoon.",1. R & J,4,1
+1) P ; P → Q ; Q → R ; R → S  / S,1) P Pr,5,1
+1. JAY is a FRESHMAN.,1. Fj,6,1
+1. Everyone RESPECTS JAY.,1. ∀xRxj,7,1
